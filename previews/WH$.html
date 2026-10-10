@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="../sets/WH$-files/icon.png"/>
+	<link rel="stylesheet" href="../resources/header.css">
+	<title>WH$ visual preview</title>
+	<script title="root">
+		const rootPath = "..";
+	</script>
+	<style>
+		@font-face {
+			font-family: Beleren;
+			src: url('../resources/beleren.ttf');
+		}
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			opacity: 0;
+			transform: rotateY(0deg) rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+			border-radius: 3.733% / 2.677%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+			border-radius: 3.733% / 2.677%;
+		}
+		.close-btn {
+			background: url('../img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('../img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+			border-radius: 3.733% / 2.677%;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 80px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+			border-radius: 3.733% / 2.677%;
+		}
+		.flip-btn {
+			background: url('../img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('../img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.dropdown {
+			background: rgba(23, 23, 23, 0.8);
+			border-radius: 8px;
+			position: absolute;
+			left: 5%;
+			width: fit-content;
+			max-width: 90%;
+			margin: 20px 0;
+			padding: 5px 0;
+			display: grid;
+			grid-template-columns: 1fr;
+			z-index: 3;
+		}
+		.dropdown .set-bar {
+			font-family: Beleren;
+			font-size: 20px;
+			text-decoration: none;
+			color: #e3e3e3;
+			display: flex;
+			gap: 10px;
+			align-items: center;
+			padding: 0 12px;
+			margin: 5px;
+		}
+		.dropdown .set-bar:hover {
+			background: rgba(163, 163, 163, 0.5);
+			color: #f3f3f3;
+		}
+		.dropdown .set-bar img {
+			width: 32px;
+		}
+		.dropdown .inactive {
+			height: 0px;
+			overflow: hidden;
+			margin: 0px 5px;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		.addenda-container {
+			text-align: center;
+			width: fit-content;
+			max-width: 1200px;
+			padding: 0 5%;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="../img/dot.png" />
+	<img class="preload-hidden" src="../sets/WH$-files/logo.png" />
+	<img class="preload-hidden" src="../sets/WH$-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a onclick="window.location.href = rootPath + '/'"><img class="sg-logo" id="header-banner"></a>
+			<img class="sg-icon" id="header-search" onclick="goToSearch()">
+			<div style="position: relative; width: 100%;">
+				<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+				<div id="tag-dropdown" style="display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; border: 1px solid #d5d9d9; z-index: 1000; max-height: 200px; overflow-y: auto; color: black; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></div>
+			</div>
+			<a onclick="window.location.href = rootPath + '/all-sets'"><img id="header-sets" class="sg-icon">Sets</a>
+			<a id="header-articles-link" onclick="window.location.href = rootPath + '/all-articles'" style="display: none;"><img id="header-articles" class="sg-icon">Articles</a>
+			<a id="header-decks-link" onclick="window.location.href = rootPath + '/decks'" style="display: none;"><img id="header-decks" class="sg-icon">Decks</a>
+			<a onclick="window.location.href = rootPath + '/deckbuilder'"><img id="header-deckbuilder" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img id="header-random" class="sg-icon">Random</a>
+		</div>
+	</div>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			document.getElementById("header-banner").src = rootPath + "/img/banner.png";
+			document.getElementById("header-search").src = rootPath + "/img/search.png";
+			document.getElementById("header-sets").src = rootPath + "/img/sets.png";
+			document.getElementById("header-articles").src = rootPath + "/img/articles.png";
+			document.getElementById("header-decks").src = rootPath + "/img/deck.png";
+			document.getElementById("header-deckbuilder").src = rootPath + "/img/deckbuilder.png";
+			document.getElementById("header-random").src = rootPath + "/img/random.png";
+
+			// Hide Articles if none exist
+			fetch(rootPath + '/all-articles.html', { method: 'HEAD' })
+				.then(response => {
+					if (response.ok) document.getElementById('header-articles-link').style.display = 'flex';
+				}).catch(() => {});
+
+			// Hide Decks if none exist
+			fetch(rootPath + '/decks.html', { method: 'HEAD' })
+				.then(response => {
+					if (response.ok) document.getElementById('header-decks-link').style.display = 'flex';
+				}).catch(() => {});
+		});
+
+		function goToSearch() {
+			window.location.href = rootPath + "/search";
+		}
+	</script>
+
+	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	
+		<a class="set-bar" href="../previews/WH$"><img src="../sets/WH$-files/icon.png">What Is All This Good For?</a>
+	
+		</div>
+		<div class="banner">
+		<img class="logo" src="../sets/WH$-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+					<div class="container"><img loading="lazy" alt="sets\WH$-files\img\10_Danger-Zone Gearhead.png" id="WH$_10_Danger-Zone Gearhead" data-flag="@X" onclick="openSidebar('WH$_10_Danger-Zone Gearhead',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\23_.png" id="WH$_23_" data-flag="@X" onclick="openSidebar('WH$_23_',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\42_Nihilistic Investor.png" id="WH$_42_Nihilistic Investor" data-flag="@X" onclick="openSidebar('WH$_42_Nihilistic Investor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\58_Climate Change.png" id="WH$_58_Climate Change" data-flag="@X" onclick="openSidebar('WH$_58_Climate Change',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\82_Reloader Truck.png" id="WH$_82_Reloader Truck" data-flag="@X" onclick="openSidebar('WH$_82_Reloader Truck',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\5_.png" id="WH$_5_" data-flag="@X" onclick="openSidebar('WH$_5_',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\24_Allied Botnet.png" id="WH$_24_Allied Botnet" data-flag="@X" onclick="openSidebar('WH$_24_Allied Botnet',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\40_Esoteric Phreaker.png" id="WH$_40_Esoteric Phreaker" data-flag="@X" onclick="openSidebar('WH$_40_Esoteric Phreaker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\62_Extraplanetary Railgun.png" id="WH$_62_Extraplanetary Railgun" data-flag="@X" onclick="openSidebar('WH$_62_Extraplanetary Railgun',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\76_.png" id="WH$_76_" data-flag="@X" onclick="openSidebar('WH$_76_',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\13_Meltdown Containers.png" id="WH$_13_Meltdown Containers" data-flag="@X" onclick="openSidebar('WH$_13_Meltdown Containers',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\26_Factory-On-Legs.png" id="WH$_26_Factory-On-Legs" data-flag="@X" onclick="openSidebar('WH$_26_Factory-On-Legs',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\41_Genomic Tutor.png" id="WH$_41_Genomic Tutor" data-flag="@X" onclick="openSidebar('WH$_41_Genomic Tutor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\69_Prizhin, EPITHET.png" id="WH$_69_Prizhin, EPITHET" data-flag="@X" onclick="openSidebar('WH$_69_Prizhin, EPITHET',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\79_Biohacker.png" id="WH$_79_Biohacker" data-flag="@X" onclick="openSidebar('WH$_79_Biohacker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\15_Military Hyperoptimizer.png" id="WH$_15_Military Hyperoptimizer" data-flag="@X" onclick="openSidebar('WH$_15_Military Hyperoptimizer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\28_Massive Aetherscope.png" id="WH$_28_Massive Aetherscope" data-flag="@X" onclick="openSidebar('WH$_28_Massive Aetherscope',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\33_.png" id="WH$_33_" data-flag="@X" onclick="openSidebar('WH$_33_',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\51_.png" id="WH$_51_" data-flag="@X" onclick="openSidebar('WH$_51_',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\77_.png" id="WH$_77_" data-flag="@X" onclick="openSidebar('WH$_77_',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\7_.png" id="WH$_7_" data-flag="@X" onclick="openSidebar('WH$_7_',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\27_Khenpro Hedgewitch.png" id="WH$_27_Khenpro Hedgewitch" data-flag="@X" onclick="openSidebar('WH$_27_Khenpro Hedgewitch',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\44_Prizha Killbot.png" id="WH$_44_Prizha Killbot" data-flag="@X" onclick="openSidebar('WH$_44_Prizha Killbot',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\56_Bombastic Phoenixwright.png" id="WH$_56_Bombastic Phoenixwright" data-flag="@X" onclick="openSidebar('WH$_56_Bombastic Phoenixwright',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\78_Biofrequency Analyzer.png" id="WH$_78_Biofrequency Analyzer" data-flag="@X" onclick="openSidebar('WH$_78_Biofrequency Analyzer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\9_Cherenko, the Last Cosmonaut.png" id="WH$_9_Cherenko, the Last Cosmonaut" data-flag="@X" onclick="openSidebar('WH$_9_Cherenko, the Last Cosmonaut',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\29_Positronic Brain.png" id="WH$_29_Positronic Brain" data-flag="@X" onclick="openSidebar('WH$_29_Positronic Brain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\45_Spaceborne Snipe.png" id="WH$_45_Spaceborne Snipe" data-flag="@X" onclick="openSidebar('WH$_45_Spaceborne Snipe',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\64_FUNCPRINT rust harvester would be funny.png" id="WH$_64_FUNCPRINT rust harvester would be funny" data-flag="@X" onclick="openSidebar('WH$_64_FUNCPRINT rust harvester would be funny',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\80_Endangered Brushwagg.png" id="WH$_80_Endangered Brushwagg" data-flag="@X" onclick="openSidebar('WH$_80_Endangered Brushwagg',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\14_Military Fitness.png" id="WH$_14_Military Fitness" data-flag="@X" onclick="openSidebar('WH$_14_Military Fitness',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\30_Precog Suit.png" id="WH$_30_Precog Suit" data-flag="@X" onclick="openSidebar('WH$_30_Precog Suit',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\47_the boston dynamics dog.png" id="WH$_47_the boston dynamics dog" data-flag="@X" onclick="openSidebar('WH$_47_the boston dynamics dog',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\66_Fusion Forge.png" id="WH$_66_Fusion Forge" data-flag="@X" onclick="openSidebar('WH$_66_Fusion Forge',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\81_Peasant Tank.png" id="WH$_81_Peasant Tank" data-flag="@X" onclick="openSidebar('WH$_81_Peasant Tank',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\17_Prizha Outfitter.png" id="WH$_17_Prizha Outfitter" data-flag="@X" onclick="openSidebar('WH$_17_Prizha Outfitter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\32_Statue of Guardianship.png" id="WH$_32_Statue of Guardianship" data-flag="@X" onclick="openSidebar('WH$_32_Statue of Guardianship',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\34_.png" id="WH$_34_" data-flag="@X" onclick="openSidebar('WH$_34_',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\68_Laserdrill Mining.png" id="WH$_68_Laserdrill Mining" data-flag="@X" onclick="openSidebar('WH$_68_Laserdrill Mining',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\8_Agelessness Treatment.png" id="WH$_8_Agelessness Treatment" data-flag="@X" onclick="openSidebar('WH$_8_Agelessness Treatment',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\19_.png" id="WH$_19_" data-flag="@X" onclick="openSidebar('WH$_19_',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\37_.png" id="WH$_37_" data-flag="@X" onclick="openSidebar('WH$_37_',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\71_Sky-High Stadium.png" id="WH$_71_Sky-High Stadium" data-flag="@X" onclick="openSidebar('WH$_71_Sky-High Stadium',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\11_Impassioned Mayor.png" id="WH$_11_Impassioned Mayor" data-flag="@X" onclick="openSidebar('WH$_11_Impassioned Mayor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\21_.png" id="WH$_21_" data-flag="@X" onclick="openSidebar('WH$_21_',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\38_Commissioned Officer.png" id="WH$_38_Commissioned Officer" data-flag="@X" onclick="openSidebar('WH$_38_Commissioned Officer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\49_.png" id="WH$_49_" data-flag="@X" onclick="openSidebar('WH$_49_',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\12_Internally Displaced.png" id="WH$_12_Internally Displaced" data-flag="@X" onclick="openSidebar('WH$_12_Internally Displaced',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\22_.png" id="WH$_22_" data-flag="@X" onclick="openSidebar('WH$_22_',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\39_Cryptocurrency Miner.png" id="WH$_39_Cryptocurrency Miner" data-flag="@X" onclick="openSidebar('WH$_39_Cryptocurrency Miner',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\54_Ballistic Jenny.png" id="WH$_54_Ballistic Jenny" data-flag="@X" onclick="openSidebar('WH$_54_Ballistic Jenny',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\16_Officer's Jeep.png" id="WH$_16_Officers Jeep" data-flag="@X" onclick="openSidebar('WH$_16_Officers Jeep',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\25_A Beautiful Morning.png" id="WH$_25_A Beautiful Morning" data-flag="@X" onclick="openSidebar('WH$_25_A Beautiful Morning',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\43_Precog Agent.png" id="WH$_43_Precog Agent" data-flag="@X" onclick="openSidebar('WH$_43_Precog Agent',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\55_bitter reunion 2.png" id="WH$_55_bitter reunion 2" data-flag="@X" onclick="openSidebar('WH$_55_bitter reunion 2',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\31_Space-Age Waitertron.png" id="WH$_31_Space-Age Waitertron" data-flag="@X" onclick="openSidebar('WH$_31_Space-Age Waitertron',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\46_Telecommunications Wight.png" id="WH$_46_Telecommunications Wight" data-flag="@X" onclick="openSidebar('WH$_46_Telecommunications Wight',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\57_Bunker-Buster Round.png" id="WH$_57_Bunker-Buster Round" data-flag="@X" onclick="openSidebar('WH$_57_Bunker-Buster Round',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\59_Derrick Strider.png" id="WH$_59_Derrick Strider" data-flag="@X" onclick="openSidebar('WH$_59_Derrick Strider',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\61_Exigient Safecracker.png" id="WH$_61_Exigient Safecracker" data-flag="@X" onclick="openSidebar('WH$_61_Exigient Safecracker',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\67_grimes.png" id="WH$_67_grimes" data-flag="@X" onclick="openSidebar('WH$_67_grimes',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\73_Space Force.png" id="WH$_73_Space Force" data-flag="@X" onclick="openSidebar('WH$_73_Space Force',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\52_.png" id="WH$_52_" data-flag="@X" onclick="openSidebar('WH$_52_',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\60_Drone Strike.png" id="WH$_60_Drone Strike" data-flag="@X" onclick="openSidebar('WH$_60_Drone Strike',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\63_Fervent Podcaster.png" id="WH$_63_Fervent Podcaster" data-flag="@X" onclick="openSidebar('WH$_63_Fervent Podcaster',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\65_FUNCPRINT sunshot militia.png" id="WH$_65_FUNCPRINT sunshot militia" data-flag="@X" onclick="openSidebar('WH$_65_FUNCPRINT sunshot militia',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\70_Refinery Overseer.png" id="WH$_70_Refinery Overseer" data-flag="@X" onclick="openSidebar('WH$_70_Refinery Overseer',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\72_Smoke Break.png" id="WH$_72_Smoke Break" data-flag="@X" onclick="openSidebar('WH$_72_Smoke Break',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\74_State Repression.png" id="WH$_74_State Repression" data-flag="@X" onclick="openSidebar('WH$_74_State Repression',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\75_Vatborn Technician.png" id="WH$_75_Vatborn Technician" data-flag="@X" onclick="openSidebar('WH$_75_Vatborn Technician',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WH$_er" data-flag="@E" onclick="openSidebar('WH$_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WH$_er" data-flag="@E" onclick="openSidebar('WH$_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WH$_er" data-flag="@E" onclick="openSidebar('WH$_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WH$_er" data-flag="@E" onclick="openSidebar('WH$_er',false)"></div>
+				<div id="gold" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\90_Paragon Of Modern War.png" id="WH$_90_Paragon Of Modern War" data-flag="@X" onclick="openSidebar('WH$_90_Paragon Of Modern War',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\85_Freelance Hexweaver.png" id="WH$_85_Freelance Hexweaver" data-flag="@X" onclick="openSidebar('WH$_85_Freelance Hexweaver',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\91_Virtualscape Architect.png" id="WH$_91_Virtualscape Architect" data-flag="@X" onclick="openSidebar('WH$_91_Virtualscape Architect',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\87_Kuta, Comprador Industrialist.png" id="WH$_87_Kuta, Comprador Industrialist" data-flag="@X" onclick="openSidebar('WH$_87_Kuta, Comprador Industrialist',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\88_Loot-Trade Opportunist.png" id="WH$_88_Loot-Trade Opportunist" data-flag="@X" onclick="openSidebar('WH$_88_Loot-Trade Opportunist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\86_Hubermann, Overseas Investor.png" id="WH$_86_Hubermann, Overseas Investor" data-flag="@X" onclick="openSidebar('WH$_86_Hubermann, Overseas Investor',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\89_Newport, Hive Inc. CEO.png" id="WH$_89_Newport, Hive Inc. CEO" data-flag="@X" onclick="openSidebar('WH$_89_Newport, Hive Inc. CEO',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WH$_er" data-flag="@E" onclick="openSidebar('WH$_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WH$_er" data-flag="@E" onclick="openSidebar('WH$_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WH$_er" data-flag="@E" onclick="openSidebar('WH$_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WH$_er" data-flag="@E" onclick="openSidebar('WH$_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WH$_er" data-flag="@E" onclick="openSidebar('WH$_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\84_Biased Precognition.png" id="WH$_84_Biased Precognition" data-flag="@X" onclick="openSidebar('WH$_84_Biased Precognition',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\83_.png" id="WH$_83_" data-flag="@X" onclick="openSidebar('WH$_83_',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WH$_er" data-flag="@E" onclick="openSidebar('WH$_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WH$_er" data-flag="@E" onclick="openSidebar('WH$_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WH$_er" data-flag="@E" onclick="openSidebar('WH$_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WH$_er" data-flag="@E" onclick="openSidebar('WH$_er',false)"></div>
+				<div id="colorless" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\1_Diego Vala, Meek President.png" id="WH$_1_Diego Vala, Meek President" data-flag="@X" onclick="openSidebar('WH$_1_Diego Vala, Meek President',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\92_Grobyno '22 Automatic.png" id="WH$_92_Grobyno 22 Automatic" data-flag="@X" onclick="openSidebar('WH$_92_Grobyno 22 Automatic',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WH$_er" data-flag="@E" onclick="openSidebar('WH$_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WH$_er" data-flag="@E" onclick="openSidebar('WH$_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WH$_er" data-flag="@E" onclick="openSidebar('WH$_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WH$_er" data-flag="@E" onclick="openSidebar('WH$_er',false)"></div>
+				<div id="land" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\97_.png" id="WH$_97_" data-flag="@X" onclick="openSidebar('WH$_97_',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WH$_er" data-flag="@E" onclick="openSidebar('WH$_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WH$_er" data-flag="@E" onclick="openSidebar('WH$_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WH$_er" data-flag="@E" onclick="openSidebar('WH$_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WH$_er" data-flag="@E" onclick="openSidebar('WH$_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WH$_er" data-flag="@E" onclick="openSidebar('WH$_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\99_Massive Qucomp.png" id="WH$_99_Massive Qucomp" data-flag="@X" onclick="openSidebar('WH$_99_Massive Qucomp',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\98_Brutalist Block.png" id="WH$_98_Brutalist Block" data-flag="@X" onclick="openSidebar('WH$_98_Brutalist Block',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\100_Mohole Station.png" id="WH$_100_Mohole Station" data-flag="@X" onclick="openSidebar('WH$_100_Mohole Station',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WH$-files\img\101_Munitions Plant.png" id="WH$_101_Munitions Plant" data-flag="@X" onclick="openSidebar('WH$_101_Munitions Plant',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WH$_e" data-flag="@E" onclick="openSidebar('WH$_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WH$_er" data-flag="@E" onclick="openSidebar('WH$_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WH$_er" data-flag="@E" onclick="openSidebar('WH$_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WH$_er" data-flag="@E" onclick="openSidebar('WH$_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WH$_er" data-flag="@E" onclick="openSidebar('WH$_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WH$_er" data-flag="@E" onclick="openSidebar('WH$_er',false)"></div>
+	</div>
+	</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch(rootPath + '/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch(rootPath + '/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+				let all_tags = new Set();
+				card_list_arrayified.forEach(card => {
+					if (card.card_name) {
+						card.card_name = card.card_name.replace(/[\r\n]+/g, '').trim();
+					}
+					if (card.card_name2) {
+						card.card_name2 = card.card_name2.replace(/[\r\n]+/g, '').trim();
+					}
+					if (card.notes) {
+						const tagMatches = card.notes.matchAll(/!tag(?:<\w+>)?\s+([^\s\n\b]+)/g);
+						for (const match of tagMatches) {
+							all_tags.add(match[1].toLowerCase());
+						}
+					}
+				});
+
+				const searchInput = document.getElementById("search");
+				const tagDropdown = document.getElementById("tag-dropdown");
+
+				// Create a mirror element for position calculation
+				const mirror = document.createElement("div");
+				Object.assign(mirror.style, {
+					position: "absolute",
+					visibility: "hidden",
+					whiteSpace: "pre",
+					font: getComputedStyle(searchInput).font,
+					padding: "0", // No padding for pure text measurement
+					border: "none",
+					boxSizing: "content-box"
+				});
+				document.body.appendChild(mirror);
+
+				if (searchInput && tagDropdown) {
+					tagDropdown.style.width = "auto";
+					tagDropdown.style.minWidth = "75px";
+					tagDropdown.style.maxWidth = "300px";
+					tagDropdown.style.maxHeight = "200px";
+					tagDropdown.style.overflowY = "auto";
+
+					const updateDropdown = function() {
+						const value = searchInput.value;
+						const cursorPosition = searchInput.selectionStart;
+						
+						// Find the tag: prefix immediately preceding the cursor
+						const lastTagIndex = value.substring(0, cursorPosition).lastIndexOf("tag:");
+						
+						if (lastTagIndex !== -1) {
+							const queryStart = lastTagIndex + 4;
+							const query = value.substring(queryStart, cursorPosition);
+							
+							if (!query.includes(" ")) {
+								const filteredTags = Array.from(all_tags).filter(tag => tag.toLowerCase().startsWith(query.toLowerCase())).sort();
+								if (filteredTags.length > 0) {
+									tagDropdown.innerHTML = "";
+									filteredTags.forEach(tag => {
+										const div = document.createElement("div");
+										div.innerText = tag;
+										div.style.padding = "5px 10px";
+										div.style.cursor = "pointer";
+										div.style.whiteSpace = "nowrap";
+										div.onmouseover = () => div.style.background = "#f0f0f0";
+										div.onmouseout = () => div.style.background = "white";
+										div.onclick = () => {
+											const newValue = value.substring(0, queryStart) + tag + " " + value.substring(cursorPosition);
+											searchInput.value = newValue;
+											tagDropdown.style.display = "none";
+											searchInput.focus();
+											const newCursorPos = queryStart + tag.length + 1;
+											searchInput.setSelectionRange(newCursorPos, newCursorPos);
+										};
+										tagDropdown.appendChild(div);
+									});
+
+									// Calculate position
+									mirror.textContent = value.substring(0, lastTagIndex + 4);
+									const textWidth = mirror.getBoundingClientRect().width;
+									const inputPaddingLeft = parseFloat(getComputedStyle(searchInput).paddingLeft) || 0;
+									
+									tagDropdown.style.left = Math.min(textWidth + inputPaddingLeft, searchInput.offsetWidth - tagDropdown.offsetWidth) + "px";
+									tagDropdown.style.display = "block";
+									return;
+								}
+							}
+						}
+						tagDropdown.style.display = "none";
+					};
+
+					searchInput.addEventListener("input", updateDropdown);
+					searchInput.addEventListener("click", updateDropdown);
+					searchInput.addEventListener("keyup", updateDropdown);
+
+					document.addEventListener("click", function(e) {
+						if (e.target !== searchInput && e.target !== tagDropdown) {
+							tagDropdown.style.display = "none";
+						}
+					});
+				}
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = rootPath + '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = rootPath + '/' + img.alt;
+				if (img.dataset.alt_src) {
+					img.dataset.alt_src = rootPath + '/' + img.dataset.alt_src;
+				}
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		const img = document.getElementById(num);
+		const seconds = 0.2;
+		const rotated_img = document.getElementById('sidebar_h_img');
+
+        img.style.transition = seconds.toString() + "s";
+        img.style.transform = "rotateY(90deg)";
+
+        if (num == 'sidebar_img')
+		{
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(90deg) rotate(90deg)";
+
+           		if (rotated_img.style.opacity != "0") {
+		            setTimeout(() => {
+		                rotated_img.style.opacity = "0";
+		                img.style.filter = "none";
+		            }, (seconds / 2) * 1000);
+		        }
+		        else {
+		        	setTimeout(() => {
+		                rotated_img.style.opacity = "1";
+		                img.style.filter = "blur(2px) brightness(0.7)";
+		            }, (seconds / 2) * 1000);
+		        }
+            }
+		}
+
+         setTimeout(function() {
+            tmp = document.getElementById(num).src;
+			document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+			document.getElementById(num).dataset.alt_src = tmp;
+
+            img.style.transition = seconds.toString() + "s";
+            img.style.transform = "rotateY(0deg)";
+
+            if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(0deg) rotate(90deg)";
+            }
+        }, seconds * 1000);
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.style.transition = "none";
+		rotated_img.style.transition = "none";
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.opacity = "1";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.opacity = "0";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	function rolldown() {
+		dropdown.style.gridTemplateColumns = "repeat(3, 1fr)";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "auto";
+			set.style.margin = "5px";
+		}
+	}
+
+	function rollup() {
+		dropdown.style.gridTemplateColumns = "1fr";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "0px";
+			set.style.margin = "0px 5px";
+		}
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL(rootPath + '/search', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url.pathname + url.search;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL(rootPath + '/card', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url.pathname + url.search;
+			}
+	</script>
+</body>
+</html>

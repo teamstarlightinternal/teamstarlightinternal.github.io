@@ -1,0 +1,1763 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cockatrice_carddatabase version='4'>
+	<sets>
+		<set>
+			<name>WH$</name>
+			<longname>What Is All This Good For?</longname>
+			<settype>Custom</settype>
+			<releasedate>2026-10-10</releasedate>
+		</set>
+	</sets>
+	<cards>
+		<card>
+			<name>Agelessness Treatment</name>
+			<text>Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)
+Return target creature card with mana value 3 or less from your graveyard to the battlefield tapped.</text>
+			<set rarity="common" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/8_Agelessness Treatment.png" num="8">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Exigient Safecracker</name>
+			<text>{1}{R}, Discard a card: Put a contract counter on Exigient Safecracker. It gains &quot;Whenever a nontoken artifact you control enters, create an artifact token named Munitions with &quot;When this token leaves the battlefield, it deals 2 damage to any target.&quot;&quot; (Indefinitely.)</text>
+			<set rarity="uncommon" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/61_Exigient Safecracker.png" num="61">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue Spellshaper</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>State Repression</name>
+			<text>Create two 1/1 red Soldier tokens with haste that can&apos;t block.
+Creatures you control get +1/+0 until end of turn.</text>
+			<set rarity="common" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/74_State Repression.png" num="74">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Loot-Trade Opportunist</name>
+			<text>When Loot-Trade Opportunist enters, conjure a card named Liquidity into your hand. (It&apos;s a {0} instant with &quot;Add one mana of any color.&quot;)
+Whenever you discard a card with mana value 2 or less, you may cast up to two copies of it.</text>
+			<set rarity="uncommon" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/88_Loot-Trade Opportunist.png" num="88">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Mercenary Pirate</type>
+				<maintype>Creature</maintype>
+				<manacost>1BR</manacost>
+				<cmc>3</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name></name>
+			<text>When CARDNAME enters, return up to one target artifact card from your graveyard to your hand.</text>
+			<set rarity="common" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/3_.png" num="3">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Carrier</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Precog Suit</name>
+			<text>Mass produced 2—{2}{U} (If you cast this for its mass produced cost, it enters with two charge counters. When you cast a spell, you may remove a charge counter from it to create a token copy of it with no mana cost.)
+Whenever equipped creature deals combat damage to a player, draw a card.
+Equip {2}</text>
+			<set rarity="uncommon" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/30_Precog Suit.png" num="30">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Prizha Outfitter</name>
+			<text>As each other creature you control enters, create an Equipment artifact token with &quot;Equipped creature you control gets +1/+1&quot; and equip {2} attached to it.</text>
+			<set rarity="uncommon" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/17_Prizha Outfitter.png" num="17">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Spy Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Precog Agent</name>
+			<text>Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)
+When Precog Agent enters, you draw a card and lose 2 life.</text>
+			<set rarity="common" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/43_Precog Agent.png" num="43">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Derrick Strider</name>
+			<text>Discard a card: Conjure a card named Liquidity into your hand. If you discard a card named Liquidity this way, this ability costs {T} more to activate. (Liquidity is a {0} instant with &quot;Add one mana of any color.&quot;)</text>
+			<set rarity="uncommon" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/59_Derrick Strider.png" num="59">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Leviathan</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Khenpro Hedgewitch</name>
+			<text>Prowess
+When Khenpro Hedgewitch enters, reveal a card from your hand and conjure a duplicate of it into exile. The duplicate gains delve. You may cast it from exile as a sorcery. (Each card you exile from your graveyard while casting it pays for {1}.)</text>
+			<set rarity="uncommon" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/27_Khenpro Hedgewitch.png" num="27">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>the boston dynamics dog</name>
+			<text>Mass produced X—{B}{B}, Exile four times X cards from your graveyard (If you cast this for its mass produced cost, it enters with X charge counters. When you cast a spell, you may remove a charge counter from it to create a token copy of it with no mana cost.)
+Menace</text>
+			<set rarity="uncommon" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/47_the boston dynamics dog.png" num="47">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Dog</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Telecommunications Wight</name>
+			<text>{T}, Exile three cards from your graveyard or sacrifice a creature: Target creature you control gets +3/+3 until end of turn. Activate only as a sorcery.</text>
+			<set rarity="common" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/46_Telecommunications Wight.png" num="46">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Processor</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Esoteric Phreaker</name>
+			<text>When Esoteric Phreaker enters, target opponent conjures a card named One With Nothing into their hand. (It&apos;s a {B} instant with &quot;Discard your hand.&quot;)
+Whenever a player discards a card during your turn, you may cast a copy of it. If you do, target opponent gains control of the copy and may choose new targets for it. (You still pay its costs.)</text>
+			<set rarity="rare" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/40_Esoteric Phreaker.png" num="40">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Artificer Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cherenko, the Last Cosmonaut</name>
+			<text>Whenever a player casts their second spell each turn, exile Cherenko and up to one other target nonland permanent you control until the next end step.</text>
+			<set rarity="uncommon" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/9_Cherenko, the Last Cosmonaut.png" num="9">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Pilot</type>
+				<maintype>Creature</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Military Hyperoptimizer</name>
+			<text>Vigilance 
+Whenever you attack with three or more creatures, conjure a card named Ornithopter and a card named Tempered Steel into your hand. (Ornithopter is a {0} 0/2 Thopter artifact creature with flying. Tempered Steel is a {1}{W}{W} enchantment with &quot;Artifact creatures you control get +2/+2.&quot;)</text>
+			<set rarity="rare" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/15_Military Hyperoptimizer.png" num="15">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Paragon Of Modern War</name>
+			<text>Whenever Paragon Of Modern War attacks, conjure a card named Ornithopter into your hand. (It&apos;s a {0} 0/2 Thopter artifact creature with flying.)
+Tap two untapped artifacts you control: Paragon Of Modern War gains protection from the card type of your choice until end of turn. (It can&apos;t be blocked, targeted, dealt damage, enchanted, or equipped by anything of that card type until end of turn.)</text>
+			<set rarity="mythic" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/90_Paragon Of Modern War.png" num="90">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Homunculus Soldier Demigod</type>
+				<maintype>Creature</maintype>
+				<manacost>1WU</manacost>
+				<cmc>3</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Massive Aetherscope</name>
+			<text>When Massive Aetherscope enters, conjure a card named Ancestral Recall into your library fifth from the top. (It&apos;s a {U} instant with &quot;Target player draws three cards&quot;.)
+{U}, {T}: Surveil 1.</text>
+			<set rarity="rare" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/28_Massive Aetherscope.png" num="28">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Biohacker</name>
+			<text>Whenever you cast a creature spell, if one or fewer mana from lands was spent to cast it, it enters with an additional +1/+1 counter.
+{T}: Add one mana of any color.</text>
+			<set rarity="uncommon" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/79_Biohacker.png" num="79">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Vampire Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mohole Station</name>
+			<text>{T}: Add {C}.
+{T}, Exile thirteen cards from your graveyard: Add CCCCCC (six {C}).</text>
+			<set rarity="uncommon" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/100_Mohole Station.png" num="100">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Munitions Plant</name>
+			<text>Munitions Plant enters tapped. When it does, conjure a card named Ornithopter into your hand. (It&apos;s a {0} 0/2 Thopter artifact creature with flying.)
+{T}: Add {C}.</text>
+			<set rarity="uncommon" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/101_Munitions Plant.png" num="101">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Ballistic Jenny</name>
+			<text>{1}, Sacrifice an artifact or creature: Ballistic Jenny deals 1 damage to any target. If the sacrificed permanent had mana value 1 or greater, conjure a card named Ornithopter into your hand. (It&apos;s a {0} 0/2 Thopter artifact creature with flying.)</text>
+			<set rarity="uncommon" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/54_Ballistic Jenny.png" num="54">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Homunculus Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Danger-Zone Gearhead</name>
+			<text>Whenever another non-Vehicle creature enters under your control, create a token that&apos;s a copy of it, except it&apos;s a 4/4 Vehicle artifact with flying and crew 2.</text>
+			<set rarity="mythic" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/10_Danger-Zone Gearhead.png" num="10">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Artificer Pilot</type>
+				<maintype>Creature</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Biased Precognition</name>
+			<text>Conjure three cards named Liquidity into your hand. (They&apos;re {0} instants with &quot;Add one mana of any color.&quot;)
+You get a three-time boon with &quot;At the beginning of your upkeep, create a Sphere of Resistance token.&quot; (It&apos;s a {3} artifact with &quot;Spells cost {1} more to cast.&quot;)</text>
+			<set rarity="mythic" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/84_Biased Precognition.png" num="84">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1UR</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name></name>
+			<text>As an additional cost to cast this spell, you may pay {2}.
+Conjure a card named Ornithopter into your hand if the additional cost was paid. (It&apos;s a {0} 0/2 Thopter artifact creature with flying.)
+At the beginning of the next end step, sacrifice a creature. If you do, destroy target creature.</text>
+			<set rarity="uncommon" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/33_.png" num="33">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Brutalist Block</name>
+			<text>Mass produced (Whenever you cast a spell, you may remove a charge counter from this land to create a token copy of it.)
+Brutalist Block enters tapped.
+{T}: Add {C}.
+{2}, {T}: Put a charge counter on Brutalist Block.</text>
+			<set rarity="uncommon" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/98_Brutalist Block.png" num="98">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name></name>
+			<text>Return any number of cards with total mana value 4 or less from your graveyard to your hand.</text>
+			<set rarity="rare" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/83_.png" num="83">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1GU</manacost>
+				<cmc>3</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Virtualscape Architect</name>
+			<text>At the beginning of your upkeep, conjure a card named Ornithopter into your hand. (It&apos;s a {0} 0/2 Thopter artifact creature with flying.) 
+Whenever you cast a spell, create a token that&apos;s a copy of target land you control. Sacrifice it at the beginning of the next end step.</text>
+			<set rarity="rare" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/91_Virtualscape Architect.png" num="91">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>2RG</manacost>
+				<cmc>4</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Peasant Tank</name>
+			<text>When Peasant Tank enters, destroy target artifact or enchantment.
+Crew 1</text>
+			<set rarity="common" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/81_Peasant Tank.png" num="81">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>grimes</name>
+			<text>{1}, {T}: Conjure a card named Liquidity into your hand. Activate only once. (Liquidity is a {0} instant with &quot;Add one mana of any color.&quot;)</text>
+			<set rarity="uncommon" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/67_grimes.png" num="67">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Noble Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bunker-Buster Round</name>
+			<text>Bunker-Buster Round deals 6 damage to target creature. Destroy up to one target artifact or nonbasic land its controller controls.</text>
+			<set rarity="uncommon" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/57_Bunker-Buster Round.png" num="57">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Genomic Tutor</name>
+			<text>Search your library for a card, reveal it, conjure two duplicates of it into your hand, then shuffle. You lose 3 life.</text>
+			<set rarity="rare" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/41_Genomic Tutor.png" num="41">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Hubermann, Overseas Investor</name>
+			<text>Vigilance
+When Hubermann enters and whenever a player casts their second spell each turn, conjure a card named Liquidity into your hand. (It&apos;s a {0} instant with &quot;Add one mana of any color.&quot;)</text>
+			<set rarity="uncommon" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/86_Hubermann, Overseas Investor.png" num="86">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2RG</manacost>
+				<cmc>4</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name></name>
+			<text>Whenever you cast an artifact spell, you may pay {2}. If you do, create a 0/0 colorless Construct artifact creature token with &quot;This token gets +1/+1 for each artifact you control.&quot;</text>
+			<set rarity="rare" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/4_.png" num="4">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Space-Age Waitertron</name>
+			<text>{U}, {T}: Draw a card, then discard a card.
+{2}: Untap Space-Age Waitertron.</text>
+			<set rarity="common" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/31_Space-Age Waitertron.png" num="31">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Employee</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Climate Change</name>
+			<text>Whenever a player casts a spell, Climate Change deals 1 damage to each creature and each opponent.
+At the beginning of the end step, exile Climate Change.</text>
+			<set rarity="mythic" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/58_Climate Change.png" num="58">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Sky-High Stadium</name>
+			<text>Flying
+Whenever you cast an instant or sorcery spell, if Sky-High Stadium entered this turn or is attacking, copy it and you may choose new targets for the copy.
+Crew 3</text>
+			<set rarity="rare" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/71_Sky-High Stadium.png" num="71">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Fusion Forge</name>
+			<text>{T}: Add {R}.
+{T}, Discard a card: Draw a card. Then if you&apos;ve discarded four or more cards this turn, conjure a card named Sol Ring into your hand. (It&apos;s a {1} artifact with &quot;{T}: Add {C}{C}.&quot;)</text>
+			<set rarity="rare" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/66_Fusion Forge.png" num="66">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name></name>
+			<text>Mass produced 2—{4}{R} (If you cast this for its mass produced cost, it enters with two charge counters. When you cast a spell, you may remove a charge counter from it to create a token copy of it with no mana cost.)
+Attacking creatures you control get +1/+0.</text>
+			<set rarity="uncommon" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/53_.png" num="53">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>bitter reunion 2</name>
+			<text>When bitter reunion 2 enters, discard any number of cards, then draw that many cards plus one.
+{1}, Sacrifice this enchantment: Creatures you control gain haste until end of turn.</text>
+			<set rarity="uncommon" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/55_bitter reunion 2.png" num="55">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name></name>
+			<text>Choose one —
+• Exile target artifact.
+• Target player exiles two artifacts they control with mana value 0.</text>
+			<set rarity="common" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/52_.png" num="52">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Vatborn Technician</name>
+			<text>Mass produced 1—{4}{R} (If you cast this for its mass produced cost, it enters with a charge counter. When you cast a spell, you may remove a charge counter from it to create a token copy of it with no mana cost.)
+Haste</text>
+			<set rarity="common" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/75_Vatborn Technician.png" num="75">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Homunculus Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name></name>
+			<text>Mass produced 2—{3}{U} (If you cast this for its mass produced cost, it enters with two charge counters. When you cast a spell, you may remove a charge counter from it to create a token copy of it with no mana cost.)
+Flying</text>
+			<set rarity="common" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/22_.png" num="22">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature</type>
+				<maintype>Creature</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name></name>
+			<text>Mass produced 1—{3}{B} (If you cast this for its mass produced cost, it enters with a charge counter. When you cast a spell, you may remove a charge counter from it to create a token copy of it with no mana cost.)
+Deathtouch</text>
+			<set rarity="common" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/35_.png" num="35">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name></name>
+			<text>Menace
+Whenever CARDNAME attacks or blocks, conjure a card named Liquidity on top of your library. (It&apos;s a {0} instant with &quot;Add one mana of any color.&quot;)</text>
+			<set rarity="rare" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/50_.png" num="50">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name></name>
+			<text>Shuffle each card with mana value 1 or greater from your graveyard into your library, then draw seven cards.
+Conjure three cards named Ornithopter on top of your library. (They&apos;re {0} 0/2 Thopter artifact creatures with flying.)
+Exile CARDNAME.</text>
+			<set rarity="rare" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/18_.png" num="18">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name></name>
+			<text>Mass produced 1—{5}{G} (If you cast this for its mass produced cost, it enters with a charge counter. When you cast a spell, you may remove a charge counter from it to create a token copy of it with no mana cost.)
+Trample</text>
+			<set rarity="common" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/77_.png" num="77">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name></name>
+			<text>Mass produced 2—{4}{W} (If you cast this for its mass produced cost, it enters with two charge counters. When you cast a spell, you may remove a charge counter from it to create a token copy of it with no mana cost.)
+Vigilance</text>
+			<set rarity="common" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/6_.png" num="6">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name></name>
+			<text>Flying
+Battle cry (Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)
+When CARDNAME enters, conjure two cards named Ornithopter into your hand. (They&apos;re {0} 0/2 Thopter artifact creatures with flying.)</text>
+			<set rarity="uncommon" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/48_.png" num="48">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature</type>
+				<maintype>Creature</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>FUNCPRINT rust harvester would be funny</name>
+			<text>Menace
+{2}, {T}, Exile an artifact card from your graveyard: Put a +1/+1 counter on this creature, then it deals damage equal to its power to any target.</text>
+			<set rarity="rare" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/64_FUNCPRINT rust harvester would be funny.png" num="64">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>FUNCPRINT sunshot militia</name>
+			<text>Tap two untapped artifacts and/or creatures you control: FUNCPRINT sunshot militia deals 1 damage to each opponent. Activate only as a sorcery.</text>
+			<set rarity="common" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/65_FUNCPRINT sunshot militia.png" num="65">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name></name>
+			<text>Draw three cards, then discard two cards. For each nonland card discarded this way, conjure a card named Ornithopter into your hand. (It&apos;s a {0} 0/2 Thopter artifact creature with flying.)</text>
+			<set rarity="uncommon" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/20_.png" num="20">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>A Beautiful Morning</name>
+			<text>Choose one —
+• Target player draws two cards, then discards a card.
+• Tap target creature and put two stun counters on it.</text>
+			<set rarity="common" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/25_A Beautiful Morning.png" num="25">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Internally Displaced</name>
+			<text>When Internally Displaced enters, conjure a card named Ornithopter into your hand. (It&apos;s a {0} 0/2 Thopter artifact creature with flying.)</text>
+			<set rarity="common" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/12_Internally Displaced.png" num="12">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Survivor</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Commissioned Officer</name>
+			<text>When Commissioned Officer dies, conjure a card named Liquidity into your hand and each opponent loses 1 life. (It&apos;s a {0} instant with &quot;Add one mana of any color.&quot;)</text>
+			<set rarity="common" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/38_Commissioned Officer.png" num="38">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Refinery Overseer</name>
+			<text>When Refinery Overseer enters, conjure a card named Liquidity into your hand. (It&apos;s a {0} instant with &quot;Add one mana of any color.&quot;)</text>
+			<set rarity="common" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/70_Refinery Overseer.png" num="70">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Officer&apos;s Jeep</name>
+			<text>Vigilance
+Tap two artifacts and/or creatures you control: Officer&apos;s Jeep becomes an artifact creature until end of turn.</text>
+			<set rarity="common" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/16_Officer&apos;s Jeep.png" num="16">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Extraplanetary Railgun</name>
+			<text>When Extraplanetary Railgun enters, conjure four cards named Lightning Bolt into exile and put twelve time counters on each. They gain suspend. (They&apos;re {R} instants with &quot;Lightning Bolt deals 3 damage to any target.&quot;)
+Whenever you cast a noncreature spell, remove a time counter from each suspended card you own in exile.</text>
+			<set rarity="mythic" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/62_Extraplanetary Railgun.png" num="62">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Space Force</name>
+			<text>Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)
+Whenever you cast a spell, if Space Force is in rebound, create a 1/1 red Soldier token with haste that can&apos;t block.</text>
+			<set rarity="uncommon" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/73_Space Force.png" num="73">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Pilot Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Freelance Hexweaver</name>
+			<text>{T}: Each player may discard a card. Freelance Hexweaver deals 3 damage to each player who didn&apos;t.</text>
+			<set rarity="uncommon" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/85_Freelance Hexweaver.png" num="85">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Mercenary Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>BR</manacost>
+				<cmc>2</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Diego Vala, Meek President</name>
+			<text>Players can&apos;t cast more than one spell each turn and can&apos;t cast spells for additional or alternate costs.</text>
+			<set rarity="rare" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/1_Diego Vala, Meek President.png" num="1">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fervent Podcaster</name>
+			<text>Whenever Fervent Podcaster attacks, discard a card.
+{2}: Draw a card. Activate only once each turn and only if Fervent Podcaster attacked this turn.</text>
+			<set rarity="common" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/63_Fervent Podcaster.png" num="63">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Prizhin, EPITHET</name>
+			<text>Whenever Prizhin enters or attacks, conjure a card name Ornithopter into your hand. (It&apos;s a {0} 0/2 Thopter artifact creature with flying.)
+Creature spells you cast have storm. (When you cast them, copy them for each spell cast before it this turn. Copies become tokens.)</text>
+			<set rarity="mythic" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/69_Prizhin, EPITHET.png" num="69">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Mercenary</type>
+				<maintype>Creature</maintype>
+				<manacost>3RRR</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>6/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Newport, Hive Inc. CEO</name>
+			<text>When Newport enters, create three artifact tokens named Enforcement Camera with &quot;Whenever Enforcement Camera becomes tapped, surveil 1.&quot;
+At the beginning of your end step, return target card in your graveyard that was put there from your library this turn to your hand.</text>
+			<set rarity="uncommon" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/89_Newport, Hive Inc. CEO.png" num="89">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>2WU</manacost>
+				<cmc>4</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>2/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Impassioned Mayor</name>
+			<text>When Impassioned Mayor enters, conjure a card named Glorious Anthem into your hand. (It&apos;s a {1}{W}{W} enchantment with &quot;Creatures you control get +1/+1&quot;)</text>
+			<set rarity="common" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/11_Impassioned Mayor.png" num="11">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Endangered Brushwagg</name>
+			<text>Whenever you cast a spell with mana value 0, Endangered Brushwagg gets +2/+2 until end of turn.</text>
+			<set rarity="common" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/80_Endangered Brushwagg.png" num="80">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Brushwagg</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Drone Strike</name>
+			<text>Drone Strike deals 2 damage to any target. 
+Conjure a card named Ornithopter into your hand. (It&apos;s a {0} 0/2 Thopter artifact creature with flying.)</text>
+			<set rarity="common" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/60_Drone Strike.png" num="60">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name></name>
+			<text>When CARDNAME enters, conjure a card named Ornithopter into your hand. (It&apos;s a {0} 0/2 Thopter artifact creature with flying.) 
+Creatures you control with mana value 0 get +1/+1.</text>
+			<set rarity="rare" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/2_.png" num="2">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name></name>
+			<text>When CARDNAME enters, conjure seven cards named Ornithopter into your hand. (They&apos;re {0} 0/2 Thopter artifact creatures with flying.)
+Noncreature and artifact spells cost {1} more to cast.</text>
+			<set rarity="mythic" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/23_.png" num="23">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature</type>
+				<maintype>Creature</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name></name>
+			<text>Conjure two cards named Ornithopter into your hand. (They&apos;re {0} 0/2 Thopter artifact creatures with flying.) 
+Each player discards a card.</text>
+			<set rarity="common" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/37_.png" num="37">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name></name>
+			<text>Menace
+Whenever you discard one or more cards, you may discard them into exile. You may play them as long as you don&apos;t control CARDNAME.</text>
+			<set rarity="rare" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/36_.png" num="36">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name></name>
+			<text>When you cast this spell, if three or more colors of mana were spent to cast it, you may copy it. The copy targets a permanent controlled by a different player.
+Destroy target permanent. Its controller creates a tapped land token named Wastes with &quot;{T}: Add {C}&quot;.</text>
+			<set rarity="uncommon" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/7_.png" num="7">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name></name>
+			<text>Flying
+CARDNAME enters with three +1/+1 counters if three or more colors of mana were spent to cast it.
+{T}: Untap up to three target permanents. Activate only once each turn.</text>
+			<set rarity="uncommon" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/76_.png" num="76">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>0/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Nihilistic Investor</name>
+			<text>Lifelink
+When Nihilistic Investor enters, conjure X cards named Liquidity into your hand. (They&apos;re {0} instants with &quot;Add one mana of any color&quot;)
+Whenever you cast a spell during your turn, each player discards a card. Nihilistic Investor deals 1 damage to target opponent for each player who didn&apos;t discard a card this way.</text>
+			<set rarity="mythic" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/42_Nihilistic Investor.png" num="42">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>XBB</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name></name>
+			<text>Rebound
+Conjure two cards named Liquidity into your hand. (They&apos;re {0} instants with &quot;Add one mana of any color.&quot;)
+You may cast any number of target instant and sorcery spells from your graveyard. Exile them if they would be put into your graveyard.</text>
+			<set rarity="rare" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/51_.png" num="51">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Grobyno &apos;22 Automatic</name>
+			<text>Mass produced 3—{3} (If you cast this for its mass produced cost, it enters with three charge counters. When you cast a spell, you may remove a charge counter from it to create a token copy of it with no mana cost.)
+Equipped creature gets +1/+1. 
+Equip {2}</text>
+			<set rarity="common" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/92_Grobyno &apos;22 Automatic.png" num="92">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Cryptocurrency Miner</name>
+			<text>Mass produced 2—{B}{B}{B}, Pay 3 life (If you cast this for its mass produced cost, it enters with two charge counters. When you cast a spell, you may remove a charge counter from it to create a token copy of it with no mana cost.)
+At the beginning of your upkeep, you lose 1 life and conjure a card named Liquidity into your hand. (It&apos;s a {0} instant with &quot;Add one mana of any color.)</text>
+			<set rarity="common" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/39_Cryptocurrency Miner.png" num="39">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name></name>
+			<text>As an additional cost to cast this spell, you may exile three cards from your graveyard or sacrifice a creature.
+Scry 2, then draw a card. If the additional cost was paid, draw two cards instead.</text>
+			<set rarity="common" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/19_.png" num="19">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Allied Botnet</name>
+			<text>Mass produced 3—{U}, Tap six untapped permanents you control (If you cast this for its mass produced cost, it enters with three charge counters. When you cast a spell, you may remove a charge counter from it to create a token copy of it with no mana cost.)
+When Allied Botnet enters, draw a card.
+{T}: Surveil 1.</text>
+			<set rarity="rare" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/24_Allied Botnet.png" num="24">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name></name>
+			<text>CARDNAME enters with a lifelink counter if three or more colors of mana were spent to cast it.
+Whenever you cast an instant or sorcery spell, CARDNAME deals 2 damage to each opponent.</text>
+			<set rarity="uncommon" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/49_.png" num="49">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name></name>
+			<text>As an additional cost to cast this spell, exile five cards from your graveyard.
+Scry 3, then draw two cards. If three or more colors of mana were spent to cast this spell, return a permanent card exiled with CARDNAME to your hand.</text>
+			<set rarity="common" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/21_.png" num="21">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name></name>
+			<text>When CARDNAME enters, create a 2/2 TYPE token. Create a token that&apos;s a copy of target creature you control instead if three or more colors of mana were spent to cast CARDNAME.
+{B}, Sacrifice a creature token: Draw a card.</text>
+			<set rarity="common" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/34_.png" num="34">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name></name>
+			<text>Put two charge counters on target creature or artifact you control. If it doesn&apos;t have mass produced, it gains mass produced. (Whenever you cast a spell, you may remove a charge counter from it to create a token copy of it with no mana cost.)</text>
+			<set rarity="rare" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/5_.png" num="5">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Kuta, Comprador Industrialist</name>
+			<text>Tap three untapped artifacts you control: Create a land token named Prefab Housing with &quot;{T}: Add {C}. This mana can&apos;t be spent to cast your first spell each turn.&quot;</text>
+			<set rarity="uncommon" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/87_Kuta, Comprador Industrialist.png" num="87">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>1WU</manacost>
+				<cmc>3</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Factory-On-Legs</name>
+			<text>Whenever you cast a noncreature spell, create a token that&apos;s a copy of target artifact you control. If Factory-On-Legs is an artifact creature, that token is a 3/2 artifact creature.
+Crew 3</text>
+			<set rarity="rare" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/26_Factory-On-Legs.png" num="26">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>6/4</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Meltdown Containers</name>
+			<text>Vigilance
+If a card would enter a hand and it wasn&apos;t drawn, exile it instead. 
+When Meltdown Containers leaves the battlefield, return all cards exiled with it to their owner&apos;s hands.</text>
+			<set rarity="rare" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/13_Meltdown Containers.png" num="13">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Statue of Guardianship</name>
+			<text>Vigilance
+Whenever a player casts a spell with a noncreature type, you may have that player mill three cards.</text>
+			<set rarity="uncommon" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/32_Statue of Guardianship.png" num="32">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Sculpture Processor</type>
+				<maintype>Creature</maintype>
+				<manacost>4U</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Smoke Break</name>
+			<text>As an additional cost to cast Smoke Break, discard a card.
+Draw two cards. 
+You may play the discarded card this turn. It costs {1} more to cast.</text>
+			<set rarity="common" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/72_Smoke Break.png" num="72">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Massive Qucomp</name>
+			<text>{T}: Add {C}. You may exile the top card of your library.
+{2}, {T}: This turn, you may cast spells from your hand as copies of nonland cards exiled with Massive Qucomp. (They resolve and enter as copies of those cards.)</text>
+			<set rarity="rare" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/99_Massive Qucomp.png" num="99">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Laserdrill Mining</name>
+			<text>Whenever a source you control deals noncombat damage for the first time each turn, conjure a card named Liquidity into your hand. (It&apos;s a {0} instant with &quot;Add one mana of any color.&quot;)</text>
+			<set rarity="rare" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/68_Laserdrill Mining.png" num="68">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name></name>
+			<text>{T}: Add {W}.
+{1}, Discard CARDNAME: Conjure a card named Swamp or a card named Mountain into your hand. (You don&apos;t have to reveal your choice.)</text>
+			<set rarity="common" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/93_.png" num="93">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name></name>
+			<text>{T}: Add {U}.
+{1}, Discard CARDNAME: Conjure a card named Mountain or a card named Forest into your hand. (You don&apos;t have to reveal your choice.)</text>
+			<set rarity="common" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/94_.png" num="94">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name></name>
+			<text>{T}: Add {B}.
+{1}, Discard CARDNAME: Conjure a card named Forest or a card named Plains into your hand. (You don&apos;t have to reveal your choice.)</text>
+			<set rarity="common" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/95_.png" num="95">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name></name>
+			<text>{T}: Add {G}.
+{1}, Discard CARDNAME: Conjure a card named Island or a card named Swamp into your hand. (You don&apos;t have to reveal your choice.)</text>
+			<set rarity="common" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/96_.png" num="96">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name></name>
+			<text>{T}: Add {R}.
+{1}, Discard CARDNAME: Conjure a card named Plains or a card named Island into your hand. (You don&apos;t have to reveal your choice.)</text>
+			<set rarity="common" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/97_.png" num="97">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Reloader Truck</name>
+			<text>Whenever you activate a nonmana ability of a permanent for at least {T} for the first time each turn, untap that permanent. If Reloader Truck is an artifact creature, you may copy that ability and choose new targets for the copy.
+Crew 4</text>
+			<set rarity="rare" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/82_Reloader Truck.png" num="82">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/6</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Prizha Killbot</name>
+			<text>Flash
+Mass produced 2—{2}{B}{B} (If you cast this for its mass produced cost, it enters with two charge counters. When you cast a spell, you may remove a charge counter from it to create a token copy of it with no mana cost.)
+When Prizha Killbot enters, copy target spell with a single target. You may choose new targets for the copy. (This can be the spell used to mass produce it.)</text>
+			<set rarity="uncommon" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/44_Prizha Killbot.png" num="44">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Assassin</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Spaceborne Snipe</name>
+			<text>Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)
+Destroy target creature if it has mana value 2 or less or if Spaceborne Snipe was cast from exile.</text>
+			<set rarity="uncommon" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/45_Spaceborne Snipe.png" num="45">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Biofrequency Analyzer</name>
+			<text>Whenever equipped creature deals combat damage to a player, conjure a duplicate of it into your hand.
+Equip {1}{G}</text>
+			<set rarity="common" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/78_Biofrequency Analyzer.png" num="78">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Positronic Brain</name>
+			<text>Mass produced 2—{2}{U} (If you cast this for its mass produced cost, it enters with two charge counters. When you cast a spell, you may remove a charge counter from it to create a token copy of it with no mana cost.)
+You may have Positronic Brain enter as a copy of a creature you control. (If you do, it isn&apos;t mass produced.)</text>
+			<set rarity="uncommon" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/29_Positronic Brain.png" num="29">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Bombastic Phoenixwright</name>
+			<text>Once each turn, whenever you cast a noncreature spell, conjure a card named Arclight Phoenix into your graveyard. (It&apos;s a {3}{R} 3/2 Phoenix with flying, haste, and &quot;At the beginning of combat on your turn, if you&apos;ve cast three or more instant and sorcery spells this turn, return this card from your graveyard to the battlefield.&quot;)</text>
+			<set rarity="rare" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/56_Bombastic Phoenixwright.png" num="56">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Military Fitness</name>
+			<text>Enchant creature
+Whenever enchanted creature attacks, conjure a card named All That Glitters into your hand. (It&apos;s a {1}{W} Aura enchantment with enchant creature and &quot;Enchanted creature gets +1/+1 for each artifact and/or enchantment you control.&quot;)
+Spells you cast with one or more targets cost {1} less to cast.</text>
+			<set rarity="uncommon" picurl="https://teamstarlightinternal.github.io/sets/WH$-files/img/14_Military Fitness.png" num="14">WH$</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+	</cards>
+</cockatrice_carddatabase>

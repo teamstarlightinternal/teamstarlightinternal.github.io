@@ -1,0 +1,1359 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "Agelessness Treatment",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Sorcery",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/8_Agelessness Treatment.png"
+			}
+		},
+		{
+			"name": "Exigient Safecracker",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Rogue Spellshaper",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/61_Exigient Safecracker.png"
+			}
+		},
+		{
+			"name": "State Repression",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/74_State Repression.png"
+			}
+		},
+		{
+			"name": "Loot-Trade Opportunist",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Creature — Human Mercenary Pirate",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/88_Loot-Trade Opportunist.png"
+			}
+		},
+		{
+			"name": "",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Carrier",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/3_.png"
+			}
+		},
+		{
+			"name": "Precog Suit",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Artifact — Equipment",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/30_Precog Suit.png"
+			}
+		},
+		{
+			"name": "Prizha Outfitter",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Spy Artificer",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/17_Prizha Outfitter.png"
+			}
+		},
+		{
+			"name": "Precog Agent",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/43_Precog Agent.png"
+			}
+		},
+		{
+			"name": "Derrick Strider",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Artifact Creature — Leviathan",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/59_Derrick Strider.png"
+			}
+		},
+		{
+			"name": "Khenpro Hedgewitch",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Warlock",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/27_Khenpro Hedgewitch.png"
+			}
+		},
+		{
+			"name": "the boston dynamics dog",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Artifact Creature — Dog",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/47_the boston dynamics dog.png"
+			}
+		},
+		{
+			"name": "Telecommunications Wight",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Zombie Processor",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/46_Telecommunications Wight.png"
+			}
+		},
+		{
+			"name": "Esoteric Phreaker",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Creature — Human Artificer Wizard",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/40_Esoteric Phreaker.png"
+			}
+		},
+		{
+			"name": "Cherenko, the Last Cosmonaut",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Legendary Creature — Human Pilot",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/9_Cherenko, the Last Cosmonaut.png"
+			}
+		},
+		{
+			"name": "Military Hyperoptimizer",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Creature — Human Artificer",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/15_Military Hyperoptimizer.png"
+			}
+		},
+		{
+			"name": "Paragon Of Modern War",
+			"rarity": "mythic",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Creature — Homunculus Soldier Demigod",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/90_Paragon Of Modern War.png"
+			}
+		},
+		{
+			"name": "Massive Aetherscope",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/28_Massive Aetherscope.png"
+			}
+		},
+		{
+			"name": "Biohacker",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Human Vampire Noble",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/79_Biohacker.png"
+			}
+		},
+		{
+			"name": "Mohole Station",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/100_Mohole Station.png"
+			}
+		},
+		{
+			"name": "Munitions Plant",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "101",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/101_Munitions Plant.png"
+			}
+		},
+		{
+			"name": "Ballistic Jenny",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Creature — Homunculus Soldier",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/54_Ballistic Jenny.png"
+			}
+		},
+		{
+			"name": "Danger-Zone Gearhead",
+			"rarity": "mythic",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Creature — Human Artificer Pilot",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/10_Danger-Zone Gearhead.png"
+			}
+		},
+		{
+			"name": "Biased Precognition",
+			"rarity": "mythic",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Sorcery",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/84_Biased Precognition.png"
+			}
+		},
+		{
+			"name": "",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/33_.png"
+			}
+		},
+		{
+			"name": "Brutalist Block",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/98_Brutalist Block.png"
+			}
+		},
+		{
+			"name": "",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Sorcery",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/83_.png"
+			}
+		},
+		{
+			"name": "Virtualscape Architect",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{G}",
+			"type": "Creature — Human Artificer",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/91_Virtualscape Architect.png"
+			}
+		},
+		{
+			"name": "Peasant Tank",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/81_Peasant Tank.png"
+			}
+		},
+		{
+			"name": "grimes",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Creature — Human Noble Bard",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/67_grimes.png"
+			}
+		},
+		{
+			"name": "Bunker-Buster Round",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{R}",
+			"type": "Sorcery",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/57_Bunker-Buster Round.png"
+			}
+		},
+		{
+			"name": "Genomic Tutor",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}",
+			"type": "Sorcery",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/41_Genomic Tutor.png"
+			}
+		},
+		{
+			"name": "Hubermann, Overseas Investor",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{G}",
+			"type": "Legendary Creature — Human Rogue",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/86_Hubermann, Overseas Investor.png"
+			}
+		},
+		{
+			"name": "",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/4_.png"
+			}
+		},
+		{
+			"name": "Space-Age Waitertron",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact Creature — Employee",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/31_Space-Age Waitertron.png"
+			}
+		},
+		{
+			"name": "Climate Change",
+			"rarity": "mythic",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Enchantment",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/58_Climate Change.png"
+			}
+		},
+		{
+			"name": "Sky-High Stadium",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/71_Sky-High Stadium.png"
+			}
+		},
+		{
+			"name": "Fusion Forge",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/66_Fusion Forge.png"
+			}
+		},
+		{
+			"name": "",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Enchantment",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/53_.png"
+			}
+		},
+		{
+			"name": "bitter reunion 2",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Enchantment",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/55_bitter reunion 2.png"
+			}
+		},
+		{
+			"name": "",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/52_.png"
+			}
+		},
+		{
+			"name": "Vatborn Technician",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Homunculus Artificer",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/75_Vatborn Technician.png"
+			}
+		},
+		{
+			"name": "",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Creature",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/22_.png"
+			}
+		},
+		{
+			"name": "",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/35_.png"
+			}
+		},
+		{
+			"name": "",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Creature",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/50_.png"
+			}
+		},
+		{
+			"name": "",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/18_.png"
+			}
+		},
+		{
+			"name": "",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/77_.png"
+			}
+		},
+		{
+			"name": "",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/6_.png"
+			}
+		},
+		{
+			"name": "",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/48_.png"
+			}
+		},
+		{
+			"name": "FUNCPRINT rust harvester would be funny",
+			"rarity": "rare",
+			"mana_cost": "{R}",
+			"type": "Creature",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/64_FUNCPRINT rust harvester would be funny.png"
+			}
+		},
+		{
+			"name": "FUNCPRINT sunshot militia",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/65_FUNCPRINT sunshot militia.png"
+			}
+		},
+		{
+			"name": "",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Sorcery",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/20_.png"
+			}
+		},
+		{
+			"name": "A Beautiful Morning",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/25_A Beautiful Morning.png"
+			}
+		},
+		{
+			"name": "Internally Displaced",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Survivor",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/12_Internally Displaced.png"
+			}
+		},
+		{
+			"name": "Commissioned Officer",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Human Soldier",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/38_Commissioned Officer.png"
+			}
+		},
+		{
+			"name": "Refinery Overseer",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Human Artificer",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/70_Refinery Overseer.png"
+			}
+		},
+		{
+			"name": "Officer's Jeep",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/16_Officer's Jeep.png"
+			}
+		},
+		{
+			"name": "Extraplanetary Railgun",
+			"rarity": "mythic",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/62_Extraplanetary Railgun.png"
+			}
+		},
+		{
+			"name": "Space Force",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Pilot Soldier",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/73_Space Force.png"
+			}
+		},
+		{
+			"name": "Freelance Hexweaver",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{R}",
+			"type": "Creature — Human Mercenary Warlock",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/85_Freelance Hexweaver.png"
+			}
+		},
+		{
+			"name": "Diego Vala, Meek President",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Legendary Creature — Human Advisor",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/1_Diego Vala, Meek President.png"
+			}
+		},
+		{
+			"name": "Fervent Podcaster",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/63_Fervent Podcaster.png"
+			}
+		},
+		{
+			"name": "Prizhin, EPITHET",
+			"rarity": "mythic",
+			"mana_cost": "{3}{R}{R}{R}",
+			"type": "Legendary Creature — Human Mercenary",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/69_Prizhin, EPITHET.png"
+			}
+		},
+		{
+			"name": "Newport, Hive Inc. CEO",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{U}",
+			"type": "Legendary Creature — Human Advisor",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/89_Newport, Hive Inc. CEO.png"
+			}
+		},
+		{
+			"name": "Impassioned Mayor",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Advisor",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/11_Impassioned Mayor.png"
+			}
+		},
+		{
+			"name": "Endangered Brushwagg",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Brushwagg",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/80_Endangered Brushwagg.png"
+			}
+		},
+		{
+			"name": "Drone Strike",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Sorcery",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/60_Drone Strike.png"
+			}
+		},
+		{
+			"name": "",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Creature",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/2_.png"
+			}
+		},
+		{
+			"name": "",
+			"rarity": "mythic",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Creature",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/23_.png"
+			}
+		},
+		{
+			"name": "",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/37_.png"
+			}
+		},
+		{
+			"name": "",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Creature",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/36_.png"
+			}
+		},
+		{
+			"name": "",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Instant",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/7_.png"
+			}
+		},
+		{
+			"name": "",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/76_.png"
+			}
+		},
+		{
+			"name": "Nihilistic Investor",
+			"rarity": "mythic",
+			"mana_cost": "{X}{B}{B}",
+			"type": "Creature — Human Noble",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/42_Nihilistic Investor.png"
+			}
+		},
+		{
+			"name": "",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/51_.png"
+			}
+		},
+		{
+			"name": "Grobyno '22 Automatic",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact — Equipment",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/92_Grobyno '22 Automatic.png"
+			}
+		},
+		{
+			"name": "Cryptocurrency Miner",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Artifact",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/39_Cryptocurrency Miner.png"
+			}
+		},
+		{
+			"name": "",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/19_.png"
+			}
+		},
+		{
+			"name": "Allied Botnet",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/24_Allied Botnet.png"
+			}
+		},
+		{
+			"name": "",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/49_.png"
+			}
+		},
+		{
+			"name": "",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/21_.png"
+			}
+		},
+		{
+			"name": "",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/34_.png"
+			}
+		},
+		{
+			"name": "",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Sorcery",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/5_.png"
+			}
+		},
+		{
+			"name": "Kuta, Comprador Industrialist",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Legendary Creature — Human Noble",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/87_Kuta, Comprador Industrialist.png"
+			}
+		},
+		{
+			"name": "Factory-On-Legs",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/26_Factory-On-Legs.png"
+			}
+		},
+		{
+			"name": "Meltdown Containers",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Artificer",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/13_Meltdown Containers.png"
+			}
+		},
+		{
+			"name": "Statue of Guardianship",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{U}",
+			"type": "Artifact Creature — Sculpture Processor",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/32_Statue of Guardianship.png"
+			}
+		},
+		{
+			"name": "Smoke Break",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/72_Smoke Break.png"
+			}
+		},
+		{
+			"name": "Massive Qucomp",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "99",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/99_Massive Qucomp.png"
+			}
+		},
+		{
+			"name": "Laserdrill Mining",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Enchantment",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/68_Laserdrill Mining.png"
+			}
+		},
+		{
+			"name": "",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/93_.png"
+			}
+		},
+		{
+			"name": "",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/94_.png"
+			}
+		},
+		{
+			"name": "",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/95_.png"
+			}
+		},
+		{
+			"name": "",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/96_.png"
+			}
+		},
+		{
+			"name": "",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/97_.png"
+			}
+		},
+		{
+			"name": "Reloader Truck",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/82_Reloader Truck.png"
+			}
+		},
+		{
+			"name": "Prizha Killbot",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Artifact Creature — Assassin",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/44_Prizha Killbot.png"
+			}
+		},
+		{
+			"name": "Spaceborne Snipe",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/45_Spaceborne Snipe.png"
+			}
+		},
+		{
+			"name": "Biofrequency Analyzer",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Artifact — Equipment",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/78_Biofrequency Analyzer.png"
+			}
+		},
+		{
+			"name": "Positronic Brain",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/29_Positronic Brain.png"
+			}
+		},
+		{
+			"name": "Bombastic Phoenixwright",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Artificer",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/56_Bombastic Phoenixwright.png"
+			}
+		},
+		{
+			"name": "Military Fitness",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/14_Military Fitness.png"
+			}
+		}
+	]
+
+[rare(1)]
+	2 Esoteric Phreaker
+	2 Military Hyperoptimizer
+	1 Paragon Of Modern War
+	2 Massive Aetherscope
+	1 Danger-Zone Gearhead
+	1 Biased Precognition
+	2 
+	2 Virtualscape Architect
+	2 Genomic Tutor
+	2 
+	1 Climate Change
+	2 Sky-High Stadium
+	2 Fusion Forge
+	2 
+	2 
+	2 FUNCPRINT rust harvester would be funny
+	1 Extraplanetary Railgun
+	2 Diego Vala, Meek President
+	1 Prizhin, EPITHET
+	2 
+	1 
+	2 
+	1 Nihilistic Investor
+	2 
+	2 Allied Botnet
+	2 
+	2 Factory-On-Legs
+	2 Meltdown Containers
+	2 Massive Qucomp
+	2 Laserdrill Mining
+	2 Reloader Truck
+	2 Bombastic Phoenixwright
+[uncommon(3)]
+	4 Exigient Safecracker
+	4 Loot-Trade Opportunist
+	4 Precog Suit
+	4 Prizha Outfitter
+	4 Derrick Strider
+	4 Khenpro Hedgewitch
+	4 the boston dynamics dog
+	4 Cherenko, the Last Cosmonaut
+	4 Biohacker
+	4 Mohole Station
+	4 Munitions Plant
+	4 Ballistic Jenny
+	4 
+	4 Brutalist Block
+	4 grimes
+	4 Bunker-Buster Round
+	4 Hubermann, Overseas Investor
+	4 
+	4 bitter reunion 2
+	4 
+	4 
+	4 Space Force
+	4 Freelance Hexweaver
+	4 Newport, Hive Inc. CEO
+	4 
+	4 
+	4 
+	4 Kuta, Comprador Industrialist
+	4 Statue of Guardianship
+	4 Prizha Killbot
+	4 Spaceborne Snipe
+	4 Positronic Brain
+	4 Military Fitness
+[common(6)]
+	8 Agelessness Treatment
+	8 State Repression
+	8 
+	8 Precog Agent
+	8 Telecommunications Wight
+	8 Peasant Tank
+	8 Space-Age Waitertron
+	8 
+	8 Vatborn Technician
+	8 
+	8 
+	8 
+	8 
+	8 FUNCPRINT sunshot militia
+	8 A Beautiful Morning
+	8 Internally Displaced
+	8 Commissioned Officer
+	8 Refinery Overseer
+	8 Officer's Jeep
+	8 Fervent Podcaster
+	8 Impassioned Mayor
+	8 Endangered Brushwagg
+	8 Drone Strike
+	8 
+	8 Grobyno '22 Automatic
+	8 Cryptocurrency Miner
+	8 
+	8 
+	8 
+	8 Smoke Break
+	8 
+	8 
+	8 
+	8 
+	8 
+	8 Biofrequency Analyzer
+[common | masterpiece(1)]
+	8 Agelessness Treatment
+	8 State Repression
+	8 
+	8 Precog Agent
+	8 Telecommunications Wight
+	8 Peasant Tank
+	8 Space-Age Waitertron
+	8 
+	8 Vatborn Technician
+	8 
+	8 
+	8 
+	8 
+	8 FUNCPRINT sunshot militia
+	8 A Beautiful Morning
+	8 Internally Displaced
+	8 Commissioned Officer
+	8 Refinery Overseer
+	8 Officer's Jeep
+	8 Fervent Podcaster
+	8 Impassioned Mayor
+	8 Endangered Brushwagg
+	8 Drone Strike
+	8 
+	8 Grobyno '22 Automatic
+	8 Cryptocurrency Miner
+	8 
+	8 
+	8 
+	8 Smoke Break
+	8 
+	8 
+	8 
+	8 
+	8 
+	8 Biofrequency Analyzer
+[foil(1)]
+	12 Agelessness Treatment
+	6 Exigient Safecracker
+	12 State Repression
+	6 Loot-Trade Opportunist
+	12 
+	6 Precog Suit
+	6 Prizha Outfitter
+	12 Precog Agent
+	6 Derrick Strider
+	6 Khenpro Hedgewitch
+	6 the boston dynamics dog
+	12 Telecommunications Wight
+	2 Esoteric Phreaker
+	6 Cherenko, the Last Cosmonaut
+	2 Military Hyperoptimizer
+	1 Paragon Of Modern War
+	2 Massive Aetherscope
+	6 Biohacker
+	6 Mohole Station
+	6 Munitions Plant
+	6 Ballistic Jenny
+	1 Danger-Zone Gearhead
+	1 Biased Precognition
+	6 
+	6 Brutalist Block
+	2 
+	2 Virtualscape Architect
+	12 Peasant Tank
+	6 grimes
+	6 Bunker-Buster Round
+	2 Genomic Tutor
+	6 Hubermann, Overseas Investor
+	2 
+	12 Space-Age Waitertron
+	1 Climate Change
+	2 Sky-High Stadium
+	2 Fusion Forge
+	6 
+	6 bitter reunion 2
+	12 
+	12 Vatborn Technician
+	12 
+	12 
+	2 
+	2 
+	12 
+	12 
+	6 
+	2 FUNCPRINT rust harvester would be funny
+	12 FUNCPRINT sunshot militia
+	6 
+	12 A Beautiful Morning
+	12 Internally Displaced
+	12 Commissioned Officer
+	12 Refinery Overseer
+	12 Officer's Jeep
+	1 Extraplanetary Railgun
+	6 Space Force
+	6 Freelance Hexweaver
+	2 Diego Vala, Meek President
+	12 Fervent Podcaster
+	1 Prizhin, EPITHET
+	6 Newport, Hive Inc. CEO
+	12 Impassioned Mayor
+	12 Endangered Brushwagg
+	12 Drone Strike
+	2 
+	1 
+	12 
+	2 
+	6 
+	6 
+	1 Nihilistic Investor
+	2 
+	12 Grobyno '22 Automatic
+	12 Cryptocurrency Miner
+	12 
+	2 Allied Botnet
+	6 
+	12 
+	12 
+	2 
+	6 Kuta, Comprador Industrialist
+	2 Factory-On-Legs
+	2 Meltdown Containers
+	6 Statue of Guardianship
+	12 Smoke Break
+	2 Massive Qucomp
+	2 Laserdrill Mining
+	12 
+	12 
+	12 
+	12 
+	12 
+	2 Reloader Truck
+	6 Prizha Killbot
+	6 Spaceborne Snipe
+	12 Biofrequency Analyzer
+	6 Positronic Brain
+	2 Bombastic Phoenixwright
+	6 Military Fitness
+[wildcard(1)]
+	6 Agelessness Treatment
+	15 Exigient Safecracker
+	6 State Repression
+	15 Loot-Trade Opportunist
+	6 
+	15 Precog Suit
+	15 Prizha Outfitter
+	6 Precog Agent
+	15 Derrick Strider
+	15 Khenpro Hedgewitch
+	15 the boston dynamics dog
+	6 Telecommunications Wight
+	7 Esoteric Phreaker
+	15 Cherenko, the Last Cosmonaut
+	7 Military Hyperoptimizer
+	4 Paragon Of Modern War
+	7 Massive Aetherscope
+	15 Biohacker
+	15 Mohole Station
+	15 Munitions Plant
+	15 Ballistic Jenny
+	4 Danger-Zone Gearhead
+	4 Biased Precognition
+	15 
+	15 Brutalist Block
+	7 
+	7 Virtualscape Architect
+	6 Peasant Tank
+	15 grimes
+	15 Bunker-Buster Round
+	7 Genomic Tutor
+	15 Hubermann, Overseas Investor
+	7 
+	6 Space-Age Waitertron
+	4 Climate Change
+	7 Sky-High Stadium
+	7 Fusion Forge
+	15 
+	15 bitter reunion 2
+	6 
+	6 Vatborn Technician
+	6 
+	6 
+	7 
+	7 
+	6 
+	6 
+	15 
+	7 FUNCPRINT rust harvester would be funny
+	6 FUNCPRINT sunshot militia
+	15 
+	6 A Beautiful Morning
+	6 Internally Displaced
+	6 Commissioned Officer
+	6 Refinery Overseer
+	6 Officer's Jeep
+	4 Extraplanetary Railgun
+	15 Space Force
+	15 Freelance Hexweaver
+	7 Diego Vala, Meek President
+	6 Fervent Podcaster
+	4 Prizhin, EPITHET
+	15 Newport, Hive Inc. CEO
+	6 Impassioned Mayor
+	6 Endangered Brushwagg
+	6 Drone Strike
+	7 
+	4 
+	6 
+	7 
+	15 
+	15 
+	4 Nihilistic Investor
+	7 
+	6 Grobyno '22 Automatic
+	6 Cryptocurrency Miner
+	6 
+	7 Allied Botnet
+	15 
+	6 
+	6 
+	7 
+	15 Kuta, Comprador Industrialist
+	7 Factory-On-Legs
+	7 Meltdown Containers
+	15 Statue of Guardianship
+	6 Smoke Break
+	7 Massive Qucomp
+	7 Laserdrill Mining
+	6 
+	6 
+	6 
+	6 
+	6 
+	7 Reloader Truck
+	15 Prizha Killbot
+	15 Spaceborne Snipe
+	6 Biofrequency Analyzer
+	15 Positronic Brain
+	7 Bombastic Phoenixwright
+	15 Military Fitness
