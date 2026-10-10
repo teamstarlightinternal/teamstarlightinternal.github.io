@@ -5,9 +5,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Sorcery",
-			"collector_number": "8",
+			"collector_number": "5",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/8_Agelessness Treatment.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/0.png"
 			}
 		},
 		{
@@ -17,7 +17,7 @@
 			"type": "Creature — Human Rogue Spellshaper",
 			"collector_number": "61",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/61_Exigient Safecracker.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/1.png"
 			}
 		},
 		{
@@ -27,7 +27,7 @@
 			"type": "Sorcery",
 			"collector_number": "74",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/74_State Repression.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/2.png"
 			}
 		},
 		{
@@ -37,17 +37,17 @@
 			"type": "Creature — Human Mercenary Pirate",
 			"collector_number": "88",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/88_Loot-Trade Opportunist.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/3.png"
 			}
 		},
 		{
-			"name": "",
+			"name": "a",
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Creature — Human Carrier",
-			"collector_number": "3",
+			"collector_number": "2",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/3_.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/4.png"
 			}
 		},
 		{
@@ -57,7 +57,7 @@
 			"type": "Artifact — Equipment",
 			"collector_number": "30",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/30_Precog Suit.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/5.png"
 			}
 		},
 		{
@@ -67,7 +67,7 @@
 			"type": "Creature — Human Spy Artificer",
 			"collector_number": "17",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/17_Prizha Outfitter.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/6.png"
 			}
 		},
 		{
@@ -77,7 +77,7 @@
 			"type": "Creature — Human Wizard",
 			"collector_number": "43",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/43_Precog Agent.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/7.png"
 			}
 		},
 		{
@@ -87,7 +87,7 @@
 			"type": "Artifact Creature — Leviathan",
 			"collector_number": "59",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/59_Derrick Strider.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/8.png"
 			}
 		},
 		{
@@ -97,7 +97,7 @@
 			"type": "Creature — Human Warlock",
 			"collector_number": "27",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/27_Khenpro Hedgewitch.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/9.png"
 			}
 		},
 		{
@@ -107,7 +107,7 @@
 			"type": "Artifact Creature — Dog",
 			"collector_number": "47",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/47_the boston dynamics dog.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/10.png"
 			}
 		},
 		{
@@ -117,7 +117,7 @@
 			"type": "Creature — Zombie Processor",
 			"collector_number": "46",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/46_Telecommunications Wight.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/11.png"
 			}
 		},
 		{
@@ -127,7 +127,7 @@
 			"type": "Creature — Human Artificer Wizard",
 			"collector_number": "40",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/40_Esoteric Phreaker.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/12.png"
 			}
 		},
 		{
@@ -137,7 +137,7 @@
 			"type": "Legendary Creature — Human Pilot",
 			"collector_number": "9",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/9_Cherenko, the Last Cosmonaut.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/13.png"
 			}
 		},
 		{
@@ -147,7 +147,7 @@
 			"type": "Creature — Human Artificer",
 			"collector_number": "15",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/15_Military Hyperoptimizer.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/14.png"
 			}
 		},
 		{
@@ -157,7 +157,7 @@
 			"type": "Creature — Homunculus Soldier Demigod",
 			"collector_number": "90",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/90_Paragon Of Modern War.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/15.png"
 			}
 		},
 		{
@@ -167,7 +167,7 @@
 			"type": "Artifact",
 			"collector_number": "28",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/28_Massive Aetherscope.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/16.png"
 			}
 		},
 		{
@@ -177,7 +177,7 @@
 			"type": "Creature — Human Vampire Noble",
 			"collector_number": "79",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/79_Biohacker.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/17.png"
 			}
 		},
 		{
@@ -187,7 +187,7 @@
 			"type": "Land",
 			"collector_number": "100",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/100_Mohole Station.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/18.png"
 			}
 		},
 		{
@@ -197,7 +197,7 @@
 			"type": "Land",
 			"collector_number": "101",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/101_Munitions Plant.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/19.png"
 			}
 		},
 		{
@@ -205,9 +205,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}{R}",
 			"type": "Creature — Homunculus Soldier",
-			"collector_number": "54",
+			"collector_number": "53",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/54_Ballistic Jenny.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/20.png"
 			}
 		},
 		{
@@ -217,7 +217,7 @@
 			"type": "Creature — Human Artificer Pilot",
 			"collector_number": "10",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/10_Danger-Zone Gearhead.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/21.png"
 			}
 		},
 		{
@@ -227,17 +227,17 @@
 			"type": "Sorcery",
 			"collector_number": "84",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/84_Biased Precognition.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/22.png"
 			}
 		},
 		{
-			"name": "",
+			"name": "a",
 			"rarity": "uncommon",
 			"mana_cost": "{B}",
 			"type": "Sorcery",
 			"collector_number": "33",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/33_.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/23.png"
 			}
 		},
 		{
@@ -245,19 +245,19 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "98",
+			"collector_number": "95",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/98_Brutalist Block.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/24.png"
 			}
 		},
 		{
-			"name": "",
+			"name": "a",
 			"rarity": "rare",
 			"mana_cost": "{1}{G}{U}",
 			"type": "Sorcery",
 			"collector_number": "83",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/83_.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/25.png"
 			}
 		},
 		{
@@ -267,7 +267,7 @@
 			"type": "Creature — Human Artificer",
 			"collector_number": "91",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/91_Virtualscape Architect.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/26.png"
 			}
 		},
 		{
@@ -277,7 +277,7 @@
 			"type": "Artifact — Vehicle",
 			"collector_number": "81",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/81_Peasant Tank.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/27.png"
 			}
 		},
 		{
@@ -287,7 +287,7 @@
 			"type": "Creature — Human Noble Bard",
 			"collector_number": "67",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/67_grimes.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/28.png"
 			}
 		},
 		{
@@ -295,9 +295,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{R}",
 			"type": "Sorcery",
-			"collector_number": "57",
+			"collector_number": "56",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/57_Bunker-Buster Round.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/29.png"
 			}
 		},
 		{
@@ -307,7 +307,7 @@
 			"type": "Sorcery",
 			"collector_number": "41",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/41_Genomic Tutor.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/30.png"
 			}
 		},
 		{
@@ -317,17 +317,17 @@
 			"type": "Legendary Creature — Human Rogue",
 			"collector_number": "86",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/86_Hubermann, Overseas Investor.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/31.png"
 			}
 		},
 		{
-			"name": "",
+			"name": "c",
 			"rarity": "rare",
 			"mana_cost": "{2}{W}",
 			"type": "Creature — Human Wizard",
-			"collector_number": "4",
+			"collector_number": "8",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/4_.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/32.png"
 			}
 		},
 		{
@@ -337,7 +337,7 @@
 			"type": "Artifact Creature — Employee",
 			"collector_number": "31",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/31_Space-Age Waitertron.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/33.png"
 			}
 		},
 		{
@@ -347,7 +347,7 @@
 			"type": "Enchantment",
 			"collector_number": "58",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/58_Climate Change.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/34.png"
 			}
 		},
 		{
@@ -357,7 +357,7 @@
 			"type": "Artifact — Vehicle",
 			"collector_number": "71",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/71_Sky-High Stadium.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/35.png"
 			}
 		},
 		{
@@ -367,17 +367,17 @@
 			"type": "Artifact",
 			"collector_number": "66",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/66_Fusion Forge.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/36.png"
 			}
 		},
 		{
-			"name": "",
+			"name": "a",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
 			"type": "Enchantment",
-			"collector_number": "53",
+			"collector_number": "50",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/53_.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/37.png"
 			}
 		},
 		{
@@ -385,19 +385,19 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Enchantment",
-			"collector_number": "55",
+			"collector_number": "54",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/55_bitter reunion 2.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/38.png"
 			}
 		},
 		{
-			"name": "",
+			"name": "a",
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Sorcery",
-			"collector_number": "52",
+			"collector_number": "49",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/52_.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/39.png"
 			}
 		},
 		{
@@ -407,77 +407,77 @@
 			"type": "Creature — Homunculus Artificer",
 			"collector_number": "75",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/75_Vatborn Technician.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/40.png"
 			}
 		},
 		{
-			"name": "",
+			"name": "a",
 			"rarity": "common",
 			"mana_cost": "{U}",
 			"type": "Creature",
-			"collector_number": "22",
+			"collector_number": "18",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/22_.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/41.png"
 			}
 		},
 		{
-			"name": "",
+			"name": "b",
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Creature",
-			"collector_number": "35",
+			"collector_number": "36",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/35_.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/42.png"
 			}
 		},
 		{
-			"name": "",
+			"name": "a",
 			"rarity": "rare",
 			"mana_cost": "{2}{R}",
 			"type": "Creature",
-			"collector_number": "50",
+			"collector_number": "48",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/50_.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/43.png"
 			}
 		},
 		{
-			"name": "",
+			"name": "a",
 			"rarity": "rare",
 			"mana_cost": "{3}{U}{U}",
 			"type": "Sorcery",
-			"collector_number": "18",
+			"collector_number": "19",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/18_.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/44.png"
 			}
 		},
 		{
-			"name": "",
+			"name": "a",
 			"rarity": "common",
 			"mana_cost": "{3}{G}",
 			"type": "Creature",
 			"collector_number": "77",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/77_.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/45.png"
 			}
 		},
 		{
-			"name": "",
+			"name": "b",
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Creature",
-			"collector_number": "6",
+			"collector_number": "7",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/6_.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/46.png"
 			}
 		},
 		{
-			"name": "",
+			"name": "b",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{R}{R}",
 			"type": "Creature",
-			"collector_number": "48",
+			"collector_number": "51",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/48_.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/47.png"
 			}
 		},
 		{
@@ -487,7 +487,7 @@
 			"type": "Creature",
 			"collector_number": "64",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/64_FUNCPRINT rust harvester would be funny.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/48.png"
 			}
 		},
 		{
@@ -497,17 +497,17 @@
 			"type": "Creature",
 			"collector_number": "65",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/65_FUNCPRINT sunshot militia.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/49.png"
 			}
 		},
 		{
-			"name": "",
+			"name": "a",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}",
 			"type": "Sorcery",
 			"collector_number": "20",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/20_.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/50.png"
 			}
 		},
 		{
@@ -515,9 +515,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Instant",
-			"collector_number": "25",
+			"collector_number": "24",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/25_A Beautiful Morning.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/51.png"
 			}
 		},
 		{
@@ -527,7 +527,7 @@
 			"type": "Creature — Human Survivor",
 			"collector_number": "12",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/12_Internally Displaced.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/52.png"
 			}
 		},
 		{
@@ -537,7 +537,7 @@
 			"type": "Creature — Human Soldier",
 			"collector_number": "38",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/38_Commissioned Officer.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/53.png"
 			}
 		},
 		{
@@ -547,7 +547,7 @@
 			"type": "Creature — Human Artificer",
 			"collector_number": "70",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/70_Refinery Overseer.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/54.png"
 			}
 		},
 		{
@@ -557,7 +557,7 @@
 			"type": "Artifact — Vehicle",
 			"collector_number": "16",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/16_Officer's Jeep.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/55.png"
 			}
 		},
 		{
@@ -567,7 +567,7 @@
 			"type": "Artifact",
 			"collector_number": "62",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/62_Extraplanetary Railgun.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/56.png"
 			}
 		},
 		{
@@ -577,7 +577,7 @@
 			"type": "Creature — Human Pilot Soldier",
 			"collector_number": "73",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/73_Space Force.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/57.png"
 			}
 		},
 		{
@@ -587,7 +587,7 @@
 			"type": "Creature — Human Mercenary Warlock",
 			"collector_number": "85",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/85_Freelance Hexweaver.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/58.png"
 			}
 		},
 		{
@@ -597,7 +597,7 @@
 			"type": "Legendary Creature — Human Advisor",
 			"collector_number": "1",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/1_Diego Vala, Meek President.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/59.png"
 			}
 		},
 		{
@@ -607,7 +607,7 @@
 			"type": "Creature — Human",
 			"collector_number": "63",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/63_Fervent Podcaster.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/60.png"
 			}
 		},
 		{
@@ -617,7 +617,7 @@
 			"type": "Legendary Creature — Human Mercenary",
 			"collector_number": "69",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/69_Prizhin, EPITHET.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/61.png"
 			}
 		},
 		{
@@ -627,7 +627,7 @@
 			"type": "Legendary Creature — Human Advisor",
 			"collector_number": "89",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/89_Newport, Hive Inc. CEO.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/62.png"
 			}
 		},
 		{
@@ -637,7 +637,7 @@
 			"type": "Creature — Human Advisor",
 			"collector_number": "11",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/11_Impassioned Mayor.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/63.png"
 			}
 		},
 		{
@@ -647,7 +647,7 @@
 			"type": "Creature — Brushwagg",
 			"collector_number": "80",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/80_Endangered Brushwagg.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/64.png"
 			}
 		},
 		{
@@ -657,67 +657,67 @@
 			"type": "Sorcery",
 			"collector_number": "60",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/60_Drone Strike.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/65.png"
 			}
 		},
 		{
-			"name": "",
+			"name": "b",
 			"rarity": "rare",
 			"mana_cost": "{1}{W}",
 			"type": "Creature",
-			"collector_number": "2",
+			"collector_number": "6",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/2_.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/66.png"
 			}
 		},
 		{
-			"name": "",
+			"name": "a",
 			"rarity": "mythic",
 			"mana_cost": "{3}{U}{U}",
 			"type": "Creature",
-			"collector_number": "23",
+			"collector_number": "21",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/23_.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/67.png"
 			}
 		},
 		{
-			"name": "",
+			"name": "a",
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Sorcery",
-			"collector_number": "37",
+			"collector_number": "35",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/37_.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/68.png"
 			}
 		},
 		{
-			"name": "",
+			"name": "a",
 			"rarity": "rare",
 			"mana_cost": "{2}{B}",
 			"type": "Creature",
-			"collector_number": "36",
+			"collector_number": "34",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/36_.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/69.png"
 			}
 		},
 		{
-			"name": "",
+			"name": "a",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}",
 			"type": "Instant",
-			"collector_number": "7",
+			"collector_number": "3",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/7_.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/70.png"
 			}
 		},
 		{
-			"name": "",
+			"name": "a",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}",
 			"type": "Creature",
 			"collector_number": "76",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/76_.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/71.png"
 			}
 		},
 		{
@@ -727,17 +727,17 @@
 			"type": "Creature — Human Noble",
 			"collector_number": "42",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/42_Nihilistic Investor.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/72.png"
 			}
 		},
 		{
-			"name": "",
+			"name": "b",
 			"rarity": "rare",
 			"mana_cost": "{3}{R}{R}",
 			"type": "Sorcery",
-			"collector_number": "51",
+			"collector_number": "52",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/51_.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/73.png"
 			}
 		},
 		{
@@ -747,7 +747,7 @@
 			"type": "Artifact — Equipment",
 			"collector_number": "92",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/92_Grobyno '22 Automatic.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/74.png"
 			}
 		},
 		{
@@ -757,17 +757,17 @@
 			"type": "Artifact",
 			"collector_number": "39",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/39_Cryptocurrency Miner.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/75.png"
 			}
 		},
 		{
-			"name": "",
+			"name": "b",
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Instant",
-			"collector_number": "19",
+			"collector_number": "23",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/19_.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/76.png"
 			}
 		},
 		{
@@ -775,49 +775,49 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{U}",
 			"type": "Artifact",
-			"collector_number": "24",
+			"collector_number": "22",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/24_Allied Botnet.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/77.png"
 			}
 		},
 		{
-			"name": "",
+			"name": "c",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Creature",
-			"collector_number": "49",
+			"collector_number": "57",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/49_.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/78.png"
 			}
 		},
 		{
-			"name": "",
+			"name": "c",
 			"rarity": "common",
 			"mana_cost": "{2}{U}",
 			"type": "Instant",
-			"collector_number": "21",
+			"collector_number": "25",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/21_.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/79.png"
 			}
 		},
 		{
-			"name": "",
+			"name": "c",
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
 			"type": "Creature",
-			"collector_number": "34",
+			"collector_number": "37",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/34_.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/80.png"
 			}
 		},
 		{
-			"name": "",
+			"name": "a",
 			"rarity": "rare",
 			"mana_cost": "{1}{W}",
 			"type": "Sorcery",
-			"collector_number": "5",
+			"collector_number": "4",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/5_.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/81.png"
 			}
 		},
 		{
@@ -827,7 +827,7 @@
 			"type": "Legendary Creature — Human Noble",
 			"collector_number": "87",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/87_Kuta, Comprador Industrialist.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/82.png"
 			}
 		},
 		{
@@ -837,7 +837,7 @@
 			"type": "Artifact — Vehicle",
 			"collector_number": "26",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/26_Factory-On-Legs.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/83.png"
 			}
 		},
 		{
@@ -847,7 +847,7 @@
 			"type": "Creature — Human Artificer",
 			"collector_number": "13",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/13_Meltdown Containers.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/84.png"
 			}
 		},
 		{
@@ -857,7 +857,7 @@
 			"type": "Artifact Creature — Sculpture Processor",
 			"collector_number": "32",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/32_Statue of Guardianship.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/85.png"
 			}
 		},
 		{
@@ -867,7 +867,7 @@
 			"type": "Sorcery",
 			"collector_number": "72",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/72_Smoke Break.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/86.png"
 			}
 		},
 		{
@@ -877,7 +877,7 @@
 			"type": "Land",
 			"collector_number": "99",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/99_Massive Qucomp.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/87.png"
 			}
 		},
 		{
@@ -887,57 +887,57 @@
 			"type": "Enchantment",
 			"collector_number": "68",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/68_Laserdrill Mining.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/88.png"
 			}
 		},
 		{
-			"name": "",
+			"name": "a",
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land",
 			"collector_number": "93",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/93_.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/89.png"
 			}
 		},
 		{
-			"name": "",
+			"name": "b",
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land",
 			"collector_number": "94",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/94_.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/90.png"
 			}
 		},
 		{
-			"name": "",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Land",
-			"collector_number": "95",
-			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/95_.png"
-			}
-		},
-		{
-			"name": "",
+			"name": "c",
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land",
 			"collector_number": "96",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/96_.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/91.png"
 			}
 		},
 		{
-			"name": "",
+			"name": "d",
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land",
 			"collector_number": "97",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/97_.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/92.png"
+			}
+		},
+		{
+			"name": "e",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/93.png"
 			}
 		},
 		{
@@ -947,7 +947,7 @@
 			"type": "Artifact — Vehicle",
 			"collector_number": "82",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/82_Reloader Truck.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/94.png"
 			}
 		},
 		{
@@ -957,7 +957,7 @@
 			"type": "Artifact Creature — Assassin",
 			"collector_number": "44",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/44_Prizha Killbot.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/95.png"
 			}
 		},
 		{
@@ -967,7 +967,7 @@
 			"type": "Sorcery",
 			"collector_number": "45",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/45_Spaceborne Snipe.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/96.png"
 			}
 		},
 		{
@@ -977,7 +977,7 @@
 			"type": "Artifact — Equipment",
 			"collector_number": "78",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/78_Biofrequency Analyzer.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/97.png"
 			}
 		},
 		{
@@ -987,7 +987,7 @@
 			"type": "Artifact",
 			"collector_number": "29",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/29_Positronic Brain.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/98.png"
 			}
 		},
 		{
@@ -995,9 +995,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Human Artificer",
-			"collector_number": "56",
+			"collector_number": "55",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/56_Bombastic Phoenixwright.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/99.png"
 			}
 		},
 		{
@@ -1007,7 +1007,7 @@
 			"type": "Enchantment — Aura",
 			"collector_number": "14",
 			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/14_Military Fitness.png"
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/100.png"
 			}
 		}
 	]
@@ -1019,26 +1019,26 @@
 	2 Massive Aetherscope
 	1 Danger-Zone Gearhead
 	1 Biased Precognition
-	2 
+	2 a
 	2 Virtualscape Architect
 	2 Genomic Tutor
-	2 
+	2 c
 	1 Climate Change
 	2 Sky-High Stadium
 	2 Fusion Forge
-	2 
-	2 
+	2 a
+	2 a
 	2 FUNCPRINT rust harvester would be funny
 	1 Extraplanetary Railgun
 	2 Diego Vala, Meek President
 	1 Prizhin, EPITHET
-	2 
-	1 
-	2 
+	2 b
+	1 a
+	2 a
 	1 Nihilistic Investor
-	2 
+	2 b
 	2 Allied Botnet
-	2 
+	2 a
 	2 Factory-On-Legs
 	2 Meltdown Containers
 	2 Massive Qucomp
@@ -1058,21 +1058,21 @@
 	4 Mohole Station
 	4 Munitions Plant
 	4 Ballistic Jenny
-	4 
+	4 a
 	4 Brutalist Block
 	4 grimes
 	4 Bunker-Buster Round
 	4 Hubermann, Overseas Investor
-	4 
+	4 a
 	4 bitter reunion 2
-	4 
-	4 
+	4 b
+	4 a
 	4 Space Force
 	4 Freelance Hexweaver
 	4 Newport, Hive Inc. CEO
-	4 
-	4 
-	4 
+	4 a
+	4 a
+	4 c
 	4 Kuta, Comprador Industrialist
 	4 Statue of Guardianship
 	4 Prizha Killbot
@@ -1082,17 +1082,17 @@
 [common(6)]
 	8 Agelessness Treatment
 	8 State Repression
-	8 
+	8 a
 	8 Precog Agent
 	8 Telecommunications Wight
 	8 Peasant Tank
 	8 Space-Age Waitertron
-	8 
+	8 a
 	8 Vatborn Technician
-	8 
-	8 
-	8 
-	8 
+	8 a
+	8 b
+	8 a
+	8 b
 	8 FUNCPRINT sunshot militia
 	8 A Beautiful Morning
 	8 Internally Displaced
@@ -1103,33 +1103,33 @@
 	8 Impassioned Mayor
 	8 Endangered Brushwagg
 	8 Drone Strike
-	8 
+	8 a
 	8 Grobyno '22 Automatic
 	8 Cryptocurrency Miner
-	8 
-	8 
-	8 
+	8 b
+	8 c
+	8 c
 	8 Smoke Break
-	8 
-	8 
-	8 
-	8 
-	8 
+	8 a
+	8 b
+	8 c
+	8 d
+	8 e
 	8 Biofrequency Analyzer
 [common | masterpiece(1)]
 	8 Agelessness Treatment
 	8 State Repression
-	8 
+	8 a
 	8 Precog Agent
 	8 Telecommunications Wight
 	8 Peasant Tank
 	8 Space-Age Waitertron
-	8 
+	8 a
 	8 Vatborn Technician
-	8 
-	8 
-	8 
-	8 
+	8 a
+	8 b
+	8 a
+	8 b
 	8 FUNCPRINT sunshot militia
 	8 A Beautiful Morning
 	8 Internally Displaced
@@ -1140,25 +1140,25 @@
 	8 Impassioned Mayor
 	8 Endangered Brushwagg
 	8 Drone Strike
-	8 
+	8 a
 	8 Grobyno '22 Automatic
 	8 Cryptocurrency Miner
-	8 
-	8 
-	8 
+	8 b
+	8 c
+	8 c
 	8 Smoke Break
-	8 
-	8 
-	8 
-	8 
-	8 
+	8 a
+	8 b
+	8 c
+	8 d
+	8 e
 	8 Biofrequency Analyzer
 [foil(1)]
 	12 Agelessness Treatment
 	6 Exigient Safecracker
 	12 State Repression
 	6 Loot-Trade Opportunist
-	12 
+	12 a
 	6 Precog Suit
 	6 Prizha Outfitter
 	12 Precog Agent
@@ -1177,34 +1177,34 @@
 	6 Ballistic Jenny
 	1 Danger-Zone Gearhead
 	1 Biased Precognition
-	6 
+	6 a
 	6 Brutalist Block
-	2 
+	2 a
 	2 Virtualscape Architect
 	12 Peasant Tank
 	6 grimes
 	6 Bunker-Buster Round
 	2 Genomic Tutor
 	6 Hubermann, Overseas Investor
-	2 
+	2 c
 	12 Space-Age Waitertron
 	1 Climate Change
 	2 Sky-High Stadium
 	2 Fusion Forge
-	6 
+	6 a
 	6 bitter reunion 2
-	12 
+	12 a
 	12 Vatborn Technician
-	12 
-	12 
-	2 
-	2 
-	12 
-	12 
-	6 
+	12 a
+	12 b
+	2 a
+	2 a
+	12 a
+	12 b
+	6 b
 	2 FUNCPRINT rust harvester would be funny
 	12 FUNCPRINT sunshot militia
-	6 
+	6 a
 	12 A Beautiful Morning
 	12 Internally Displaced
 	12 Commissioned Officer
@@ -1220,22 +1220,22 @@
 	12 Impassioned Mayor
 	12 Endangered Brushwagg
 	12 Drone Strike
-	2 
-	1 
-	12 
-	2 
-	6 
-	6 
+	2 b
+	1 a
+	12 a
+	2 a
+	6 a
+	6 a
 	1 Nihilistic Investor
-	2 
+	2 b
 	12 Grobyno '22 Automatic
 	12 Cryptocurrency Miner
-	12 
+	12 b
 	2 Allied Botnet
-	6 
-	12 
-	12 
-	2 
+	6 c
+	12 c
+	12 c
+	2 a
 	6 Kuta, Comprador Industrialist
 	2 Factory-On-Legs
 	2 Meltdown Containers
@@ -1243,11 +1243,11 @@
 	12 Smoke Break
 	2 Massive Qucomp
 	2 Laserdrill Mining
-	12 
-	12 
-	12 
-	12 
-	12 
+	12 a
+	12 b
+	12 c
+	12 d
+	12 e
 	2 Reloader Truck
 	6 Prizha Killbot
 	6 Spaceborne Snipe
@@ -1260,7 +1260,7 @@
 	15 Exigient Safecracker
 	6 State Repression
 	15 Loot-Trade Opportunist
-	6 
+	6 a
 	15 Precog Suit
 	15 Prizha Outfitter
 	6 Precog Agent
@@ -1279,34 +1279,34 @@
 	15 Ballistic Jenny
 	4 Danger-Zone Gearhead
 	4 Biased Precognition
-	15 
+	15 a
 	15 Brutalist Block
-	7 
+	7 a
 	7 Virtualscape Architect
 	6 Peasant Tank
 	15 grimes
 	15 Bunker-Buster Round
 	7 Genomic Tutor
 	15 Hubermann, Overseas Investor
-	7 
+	7 c
 	6 Space-Age Waitertron
 	4 Climate Change
 	7 Sky-High Stadium
 	7 Fusion Forge
-	15 
+	15 a
 	15 bitter reunion 2
-	6 
+	6 a
 	6 Vatborn Technician
-	6 
-	6 
-	7 
-	7 
-	6 
-	6 
-	15 
+	6 a
+	6 b
+	7 a
+	7 a
+	6 a
+	6 b
+	15 b
 	7 FUNCPRINT rust harvester would be funny
 	6 FUNCPRINT sunshot militia
-	15 
+	15 a
 	6 A Beautiful Morning
 	6 Internally Displaced
 	6 Commissioned Officer
@@ -1322,22 +1322,22 @@
 	6 Impassioned Mayor
 	6 Endangered Brushwagg
 	6 Drone Strike
-	7 
-	4 
-	6 
-	7 
-	15 
-	15 
+	7 b
+	4 a
+	6 a
+	7 a
+	15 a
+	15 a
 	4 Nihilistic Investor
-	7 
+	7 b
 	6 Grobyno '22 Automatic
 	6 Cryptocurrency Miner
-	6 
+	6 b
 	7 Allied Botnet
-	15 
-	6 
-	6 
-	7 
+	15 c
+	6 c
+	6 c
+	7 a
 	15 Kuta, Comprador Industrialist
 	7 Factory-On-Legs
 	7 Meltdown Containers
@@ -1345,11 +1345,11 @@
 	6 Smoke Break
 	7 Massive Qucomp
 	7 Laserdrill Mining
-	6 
-	6 
-	6 
-	6 
-	6 
+	6 a
+	6 b
+	6 c
+	6 d
+	6 e
 	7 Reloader Truck
 	15 Prizha Killbot
 	15 Spaceborne Snipe

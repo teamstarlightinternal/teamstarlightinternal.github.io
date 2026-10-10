@@ -1,4 +1,181 @@
-﻿VERSION 1 CHANGELOG
+﻿VERSION 2 CHANGELOG
+====================
+
+a added.
+a added.
+a added.
+c added.
+a added.
+a added.
+a added.
+b added.
+a added.
+a added.
+a added.
+b added.
+b added.
+a added.
+b added.
+a added.
+a added.
+a added.
+a added.
+a added.
+b added.
+b added.
+c added.
+c added.
+c added.
+a added.
+a added.
+b added.
+c added.
+d added.
+e added.
+
+
+Agelessness Treatment
+
+Exigient Safecracker
+
+State Repression
+
+Loot-Trade Opportunist
+
+Precog Suit
+
+Prizha Outfitter
+
+Precog Agent
+
+Derrick Strider
+
+Khenpro Hedgewitch
+
+the boston dynamics dog
+
+Telecommunications Wight
+
+Esoteric Phreaker
+
+Cherenko, the Last Cosmonaut
+
+Military Hyperoptimizer
+
+Paragon Of Modern War
+
+Massive Aetherscope
+
+Biohacker
+
+Mohole Station
+
+Munitions Plant
+
+Ballistic Jenny
+
+Danger-Zone Gearhead
+
+Biased Precognition
+
+Brutalist Block
+
+Virtualscape Architect
+
+Peasant Tank
+
+grimes
+
+Bunker-Buster Round
+
+Genomic Tutor
+
+Hubermann, Overseas Investor
+
+Space-Age Waitertron
+
+Climate Change
+
+Sky-High Stadium
+
+Fusion Forge
+
+bitter reunion 2
+
+Vatborn Technician
+
+FUNCPRINT rust harvester would be funny
+
+FUNCPRINT sunshot militia
+
+A Beautiful Morning
+
+Internally Displaced
+
+Commissioned Officer
+
+Refinery Overseer
+
+Officer's Jeep
+
+Extraplanetary Railgun
+
+Space Force
+
+Freelance Hexweaver
+
+Diego Vala, Meek President
+
+Fervent Podcaster
+
+Prizhin, EPITHET
+
+Newport, Hive Inc. CEO
+
+Impassioned Mayor
+
+Endangered Brushwagg
+
+Drone Strike
+
+Nihilistic Investor
+
+Grobyno '22 Automatic
+
+Cryptocurrency Miner
+
+Allied Botnet
+
+Kuta, Comprador Industrialist
+
+Factory-On-Legs
+
+Meltdown Containers
+
+Statue of Guardianship
+
+Smoke Break
+
+Massive Qucomp
+
+Laserdrill Mining
+
+Reloader Truck
+
+Prizha Killbot
+
+Spaceborne Snipe
+
+Biofrequency Analyzer
+
+Positronic Brain
+
+Bombastic Phoenixwright
+
+Military Fitness
+
+
+VERSION 1 CHANGELOG
 ====================
 
 First version published.

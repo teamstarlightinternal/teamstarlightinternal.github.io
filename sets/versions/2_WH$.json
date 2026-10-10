@@ -1,17 +1,18 @@
 ﻿{
     "name": "What Is All This Good For?",
     "formats": "",
-    "trimmed": "n",
     "image_type": "png",
     "draft_structure": "play booster",
     "unpreviewed": "card back",
+    "image_name": "position",
+    "v_mana": "",
     "cards": [
         {
             "card_name": "Agelessness Treatment",
             "color": "W",
             "rarity": "common",
             "type": "Sorcery",
-            "number": 8,
+            "number": 5,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Rebound [i](If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)[/i]\nReturn target creature card with mana value 3 or less from your graveyard to the battlefield tapped.",
@@ -23,6 +24,8 @@
             "loyalty": "",
             "artist": "Romain Chassefiere",
             "alias": "",
+            "position": "0",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -42,6 +45,8 @@
             "loyalty": "",
             "artist": "Yefim Kligerman",
             "alias": "",
+            "position": "1",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -61,6 +66,8 @@
             "loyalty": "",
             "artist": "Michal Lisowski",
             "alias": "",
+            "position": "2",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -80,17 +87,19 @@
             "loyalty": "",
             "artist": "Morgan Yon",
             "alias": "",
+            "position": "3",
+            "rotated": false,
             "notes": ""
         },
         {
-            "card_name": "",
+            "card_name": "a",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Human Carrier",
-            "number": 3,
+            "number": 2,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "When CARDNAME enters, return up to one target artifact card from your graveyard to your hand.",
+            "rules_text": "When a enters, return up to one target artifact card from your graveyard to your hand.",
             "flavor_text": "[i]\u201cYou are the logistics arm of an embattled army. You are heroes. Due to the ongoing war, your New Year's bonus has been reduced.\u201d\n\u2014Babbel message to PSV employees[/i]",
             "pt": "1/2",
             "special_text": "",
@@ -99,6 +108,8 @@
             "loyalty": "",
             "artist": "Michal Lisowski",
             "alias": "",
+            "position": "4",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -118,6 +129,8 @@
             "loyalty": "",
             "artist": "Magdalena Dadela",
             "alias": "",
+            "position": "5",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -137,6 +150,8 @@
             "loyalty": "",
             "artist": "Gary Christian",
             "alias": "",
+            "position": "6",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -156,6 +171,8 @@
             "loyalty": "",
             "artist": "Ed Pantera",
             "alias": "",
+            "position": "7",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -175,6 +192,8 @@
             "loyalty": "",
             "artist": "Ivo Nies",
             "alias": "",
+            "position": "8",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -194,6 +213,8 @@
             "loyalty": "",
             "artist": "Amber Ye",
             "alias": "",
+            "position": "9",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -213,6 +234,8 @@
             "loyalty": "",
             "artist": "Helene Maas",
             "alias": "",
+            "position": "10",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -232,6 +255,8 @@
             "loyalty": "",
             "artist": "Aleksandr Eykert",
             "alias": "",
+            "position": "11",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -251,6 +276,8 @@
             "loyalty": "",
             "artist": "Cornelius D\u00e4mmrich",
             "alias": "",
+            "position": "12",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -270,6 +297,8 @@
             "loyalty": "",
             "artist": "Fred Augis",
             "alias": "",
+            "position": "13",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -289,6 +318,8 @@
             "loyalty": "",
             "artist": "Fred Augis",
             "alias": "",
+            "position": "14",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -308,6 +339,8 @@
             "loyalty": "",
             "artist": "Fred Augis",
             "alias": "",
+            "position": "15",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -327,6 +360,8 @@
             "loyalty": "",
             "artist": "Fred Augis",
             "alias": "",
+            "position": "16",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -346,6 +381,8 @@
             "loyalty": "",
             "artist": "Fred Augis",
             "alias": "",
+            "position": "17",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -365,6 +402,8 @@
             "loyalty": "",
             "artist": "Cristian Alberto Vasquez",
             "alias": "",
+            "position": "18",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -384,6 +423,8 @@
             "loyalty": "",
             "artist": "Cristian Alberto Vasquez",
             "alias": "",
+            "position": "19",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -391,7 +432,7 @@
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Homunculus Soldier",
-            "number": 54,
+            "number": 53,
             "color_identity": "R",
             "cost": "{1}{R}{R}",
             "rules_text": "{1}, Sacrifice an artifact or creature: Ballistic Jenny deals 1 damage to any target. If the sacrificed permanent had mana value 1 or greater, conjure a card named Ornithopter into your hand. [i](It's a {0} 0/2 Thopter artifact creature with flying.)[/i]",
@@ -403,6 +444,8 @@
             "loyalty": "",
             "artist": "Fred Augis",
             "alias": "",
+            "position": "20",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -422,6 +465,8 @@
             "loyalty": "",
             "artist": "Fred Augis",
             "alias": "",
+            "position": "21",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -441,10 +486,12 @@
             "loyalty": "",
             "artist": "Fred Augis",
             "alias": "",
+            "position": "22",
+            "rotated": false,
             "notes": ""
         },
         {
-            "card_name": "",
+            "card_name": "a",
             "color": "B",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -460,6 +507,8 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
+            "position": "23",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -467,7 +516,7 @@
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
-            "number": 98,
+            "number": 95,
             "color_identity": "C",
             "cost": "",
             "rules_text": "Mass produced [i](Whenever you cast a spell, you may remove a charge counter from this land to create a token copy of it.)[/i]\nBrutalist Block enters tapped.\n{T}: Add {C}.\n{2}, {T}: Put a charge counter on Brutalist Block.",
@@ -479,10 +528,12 @@
             "loyalty": "",
             "artist": "Evo Concepts",
             "alias": "",
+            "position": "24",
+            "rotated": false,
             "notes": ""
         },
         {
-            "card_name": "",
+            "card_name": "a",
             "color": "UG",
             "rarity": "rare",
             "type": "Sorcery",
@@ -498,6 +549,8 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
+            "position": "25",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -517,6 +570,8 @@
             "loyalty": "",
             "artist": "Ciaran Brennan",
             "alias": "",
+            "position": "26",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -536,6 +591,8 @@
             "loyalty": "",
             "artist": "Gregory Fromenteau",
             "alias": "",
+            "position": "27",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -555,6 +612,8 @@
             "loyalty": "",
             "artist": "Jason Chan",
             "alias": "",
+            "position": "28",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -562,7 +621,7 @@
             "color": "R",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 57,
+            "number": 56,
             "color_identity": "R",
             "cost": "{4}{R}",
             "rules_text": "Bunker-Buster Round deals 6 damage to target creature. Destroy up to one target artifact or nonbasic land its controller controls.",
@@ -574,6 +633,8 @@
             "loyalty": "",
             "artist": "Zhenya Maximanskiy",
             "alias": "",
+            "position": "29",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -593,6 +654,8 @@
             "loyalty": "",
             "artist": "Vladimir Manyukhin",
             "alias": "",
+            "position": "30",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -612,14 +675,16 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
+            "position": "31",
+            "rotated": false,
             "notes": ""
         },
         {
-            "card_name": "",
+            "card_name": "c",
             "color": "W",
             "rarity": "rare",
             "type": "Creature \u2014 Human Wizard",
-            "number": 4,
+            "number": 8,
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "Whenever you cast an artifact spell, you may pay {2}. If you do, create a 0/0 colorless Construct artifact creature token with \u201cThis token gets +1/+1 for each artifact you control.\u201d",
@@ -631,6 +696,8 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
+            "position": "32",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -650,6 +717,8 @@
             "loyalty": "",
             "artist": "Sung Choi",
             "alias": "",
+            "position": "33",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -669,6 +738,8 @@
             "loyalty": "",
             "artist": "Erik Shoemaker",
             "alias": "",
+            "position": "34",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -688,6 +759,8 @@
             "loyalty": "",
             "artist": "yin zhen chu",
             "alias": "",
+            "position": "35",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -707,14 +780,16 @@
             "loyalty": "",
             "artist": "Gabriel Gajdo\u0161",
             "alias": "",
+            "position": "36",
+            "rotated": false,
             "notes": ""
         },
         {
-            "card_name": "",
+            "card_name": "a",
             "color": "R",
             "rarity": "uncommon",
             "type": "Enchantment",
-            "number": 53,
+            "number": 50,
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "Mass produced 2\u2014{4}{R} [i](If you cast this for its mass produced cost, it enters with two charge counters. When you cast a spell, you may remove a charge counter from it to create a token copy of it with no mana cost.)[/i]\nAttacking creatures you control get +1/+0.",
@@ -726,6 +801,8 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
+            "position": "37",
+            "rotated": false,
             "notes": "2R\nWhenever CARDNAME enters or attacks, conjure a card named Ornithopter into your hand. (It's a 0 0/2 Thopter artifact creature with flying.)\nAttacking creatures you control get +1/+0.\n2/3"
         },
         {
@@ -733,7 +810,7 @@
             "color": "R",
             "rarity": "uncommon",
             "type": "Enchantment",
-            "number": 55,
+            "number": 54,
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "When bitter reunion 2 enters, discard any number of cards, then draw that many cards plus one.\n{1}, Sacrifice this enchantment: Creatures you control gain haste until end of turn.",
@@ -745,14 +822,16 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
+            "position": "38",
+            "rotated": false,
             "notes": ""
         },
         {
-            "card_name": "",
+            "card_name": "a",
             "color": "R",
             "rarity": "common",
             "type": "Sorcery",
-            "number": 52,
+            "number": 49,
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "Choose one \u2014\n\u2022 Exile target artifact.\n\u2022 Target player exiles two artifacts they control with mana value 0.",
@@ -764,6 +843,8 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
+            "position": "39",
+            "rotated": false,
             "notes": "Reprint of Housebreak: https://lackeybot.com/msem/card/FNV/118"
         },
         {
@@ -783,14 +864,16 @@
             "loyalty": "",
             "artist": "Jakub Jagoda",
             "alias": "",
+            "position": "40",
+            "rotated": false,
             "notes": ""
         },
         {
-            "card_name": "",
+            "card_name": "a",
             "color": "U",
             "rarity": "common",
             "type": "Creature",
-            "number": 22,
+            "number": 18,
             "color_identity": "U",
             "cost": "{U}",
             "rules_text": "Mass produced 2\u2014{3}{U} [i](If you cast this for its mass produced cost, it enters with two charge counters. When you cast a spell, you may remove a charge counter from it to create a token copy of it with no mana cost.)[/i]\nFlying",
@@ -802,14 +885,16 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
+            "position": "41",
+            "rotated": false,
             "notes": ""
         },
         {
-            "card_name": "",
+            "card_name": "b",
             "color": "B",
             "rarity": "common",
             "type": "Creature",
-            "number": 35,
+            "number": 36,
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "Mass produced 1\u2014{3}{B} [i](If you cast this for its mass produced cost, it enters with a charge counter. When you cast a spell, you may remove a charge counter from it to create a token copy of it with no mana cost.)[/i]\nDeathtouch",
@@ -821,17 +906,19 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
+            "position": "42",
+            "rotated": false,
             "notes": ""
         },
         {
-            "card_name": "",
+            "card_name": "a",
             "color": "R",
             "rarity": "rare",
             "type": "Creature",
-            "number": 50,
+            "number": 48,
             "color_identity": "R",
             "cost": "{2}{R}",
-            "rules_text": "Menace\nWhenever CARDNAME attacks or blocks, conjure a card named Liquidity on top of your library. [i](It's a {0} instant with \u201cAdd one mana of any color.\u201d)[/i]",
+            "rules_text": "Menace\nWhenever a attacks or blocks, conjure a card named Liquidity on top of your library. [i](It's a {0} instant with \u201cAdd one mana of any color.\u201d)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "5/4",
             "special_text": "",
@@ -840,17 +927,19 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
+            "position": "43",
+            "rotated": false,
             "notes": ""
         },
         {
-            "card_name": "",
+            "card_name": "a",
             "color": "U",
             "rarity": "rare",
             "type": "Sorcery",
-            "number": 18,
+            "number": 19,
             "color_identity": "U",
             "cost": "{3}{U}{U}",
-            "rules_text": "Shuffle each card with mana value 1 or greater from your graveyard into your library, then draw seven cards.\nConjure three cards named Ornithopter on top of your library. [i](They're {0} 0/2 Thopter artifact creatures with flying.)[/i]\nExile CARDNAME.",
+            "rules_text": "Shuffle each card with mana value 1 or greater from your graveyard into your library, then draw seven cards.\nConjure three cards named Ornithopter on top of your library. [i](They're {0} 0/2 Thopter artifact creatures with flying.)[/i]\nExile a.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -859,10 +948,12 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
+            "position": "44",
+            "rotated": false,
             "notes": "Draw four cards.\nYou may pay 2. If you don't, conjure four cards named Ornithopter on top of your library. (Ornithopter is a 0 0/2 Thopter artifact creature with flying.)"
         },
         {
-            "card_name": "",
+            "card_name": "a",
             "color": "G",
             "rarity": "common",
             "type": "Creature",
@@ -878,14 +969,16 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
+            "position": "45",
+            "rotated": false,
             "notes": ""
         },
         {
-            "card_name": "",
+            "card_name": "b",
             "color": "W",
             "rarity": "common",
             "type": "Creature",
-            "number": 6,
+            "number": 7,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Mass produced 2\u2014{4}{W} [i](If you cast this for its mass produced cost, it enters with two charge counters. When you cast a spell, you may remove a charge counter from it to create a token copy of it with no mana cost.)[/i]\nVigilance",
@@ -897,17 +990,19 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
+            "position": "46",
+            "rotated": false,
             "notes": ""
         },
         {
-            "card_name": "",
+            "card_name": "b",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature",
-            "number": 48,
+            "number": 51,
             "color_identity": "R",
             "cost": "{3}{R}{R}",
-            "rules_text": "Flying\nBattle cry [i](Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)[/i]\nWhen CARDNAME enters, conjure two cards named Ornithopter into your hand. [i](They're {0} 0/2 Thopter artifact creatures with flying.)[/i]",
+            "rules_text": "Flying\nBattle cry [i](Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)[/i]\nWhen b enters, conjure two cards named Ornithopter into your hand. [i](They're {0} 0/2 Thopter artifact creatures with flying.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "3/4",
             "special_text": "",
@@ -916,6 +1011,8 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
+            "position": "47",
+            "rotated": false,
             "notes": "2R\nWhenever CARDNAME enters or attacks, conjure a card named Ornithopter into your hand. (It's a 0 0/2 Thopter artifact creature with flying.)\nAttacking creatures you control get +1/+0.\n2/3"
         },
         {
@@ -935,6 +1032,8 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
+            "position": "48",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -954,10 +1053,12 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
+            "position": "49",
+            "rotated": false,
             "notes": ""
         },
         {
-            "card_name": "",
+            "card_name": "a",
             "color": "U",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -973,6 +1074,8 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
+            "position": "50",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -980,7 +1083,7 @@
             "color": "U",
             "rarity": "common",
             "type": "Instant",
-            "number": 25,
+            "number": 24,
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Choose one \u2014\n\u2022 Target player draws two cards, then discards a card.\n\u2022 Tap target creature and put two stun counters on it.",
@@ -992,6 +1095,8 @@
             "loyalty": "",
             "artist": "Niklas Rh\u00f6se",
             "alias": "",
+            "position": "51",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1011,6 +1116,8 @@
             "loyalty": "",
             "artist": "Tomas Osang Muir",
             "alias": "",
+            "position": "52",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1030,6 +1137,8 @@
             "loyalty": "",
             "artist": "Panagiotis Giannakopoulos",
             "alias": "",
+            "position": "53",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1049,6 +1158,8 @@
             "loyalty": "",
             "artist": "Baran Hasan\u00e7ebi",
             "alias": "",
+            "position": "54",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1068,6 +1179,8 @@
             "loyalty": "",
             "artist": "Anthony Warren",
             "alias": "",
+            "position": "55",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1087,6 +1200,8 @@
             "loyalty": "",
             "artist": "Alberto Petronio",
             "alias": "",
+            "position": "56",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1106,6 +1221,8 @@
             "loyalty": "",
             "artist": "Felix Bauer-Schlichtegroll",
             "alias": "",
+            "position": "57",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1125,6 +1242,8 @@
             "loyalty": "",
             "artist": "Miguel Nogiera",
             "alias": "",
+            "position": "58",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1144,6 +1263,8 @@
             "loyalty": "",
             "artist": "Felix Bauer-Schlichtegroll",
             "alias": "",
+            "position": "59",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1163,6 +1284,8 @@
             "loyalty": "",
             "artist": "Deeropatra",
             "alias": "",
+            "position": "60",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1182,6 +1305,8 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
+            "position": "61",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1201,6 +1326,8 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
+            "position": "62",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1220,6 +1347,8 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
+            "position": "63",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1239,6 +1368,8 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
+            "position": "64",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1258,17 +1389,19 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
+            "position": "65",
+            "rotated": false,
             "notes": ""
         },
         {
-            "card_name": "",
+            "card_name": "b",
             "color": "W",
             "rarity": "rare",
             "type": "Creature",
-            "number": 2,
+            "number": 6,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "When CARDNAME enters, conjure a card named Ornithopter into your hand. [i](It's a {0} 0/2 Thopter artifact creature with flying.)[/i] \nCreatures you control with mana value 0 get +1/+1.",
+            "rules_text": "When b enters, conjure a card named Ornithopter into your hand. [i](It's a {0} 0/2 Thopter artifact creature with flying.)[/i] \nCreatures you control with mana value 0 get +1/+1.",
             "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
@@ -1277,17 +1410,19 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
+            "position": "66",
+            "rotated": false,
             "notes": ""
         },
         {
-            "card_name": "",
+            "card_name": "a",
             "color": "U",
             "rarity": "mythic",
             "type": "Creature",
-            "number": 23,
+            "number": 21,
             "color_identity": "U",
             "cost": "{3}{U}{U}",
-            "rules_text": "When CARDNAME enters, conjure seven cards named Ornithopter into your hand. [i](They're {0} 0/2 Thopter artifact creatures with flying.)[/i]\nNoncreature and artifact spells cost {1} more to cast.",
+            "rules_text": "When a enters, conjure seven cards named Ornithopter into your hand. [i](They're {0} 0/2 Thopter artifact creatures with flying.)[/i]\nNoncreature and artifact spells cost {1} more to cast.",
             "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
@@ -1296,14 +1431,16 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
+            "position": "67",
+            "rotated": false,
             "notes": ""
         },
         {
-            "card_name": "",
+            "card_name": "a",
             "color": "B",
             "rarity": "common",
             "type": "Sorcery",
-            "number": 37,
+            "number": 35,
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "Conjure two cards named Ornithopter into your hand. [i](They're {0} 0/2 Thopter artifact creatures with flying.)[/i] \nEach player discards a card.",
@@ -1315,17 +1452,19 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
+            "position": "68",
+            "rotated": false,
             "notes": ""
         },
         {
-            "card_name": "",
+            "card_name": "a",
             "color": "B",
             "rarity": "rare",
             "type": "Creature",
-            "number": 36,
+            "number": 34,
             "color_identity": "B",
             "cost": "{2}{B}",
-            "rules_text": "Menace\nWhenever you discard one or more cards, you may discard them into exile. You may play them as long as you don't control CARDNAME.",
+            "rules_text": "Menace\nWhenever you discard one or more cards, you may discard them into exile. You may play them as long as you don't control a.",
             "flavor_text": "[i][/i]",
             "pt": "3/2",
             "special_text": "",
@@ -1334,14 +1473,16 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
+            "position": "69",
+            "rotated": false,
             "notes": ""
         },
         {
-            "card_name": "",
+            "card_name": "a",
             "color": "W",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 7,
+            "number": 3,
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "When you cast this spell, if three or more colors of mana were spent to cast it, you may copy it. The copy targets a permanent controlled by a different player.\nDestroy target permanent. Its controller creates a tapped land token named Wastes with \u201c{T}: Add {C}\u201d.",
@@ -1353,17 +1494,19 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
+            "position": "70",
+            "rotated": false,
             "notes": ""
         },
         {
-            "card_name": "",
+            "card_name": "a",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature",
             "number": 76,
             "color_identity": "G",
             "cost": "{2}{G}",
-            "rules_text": "Flying\nCARDNAME enters with three +1/+1 counters if three or more colors of mana were spent to cast it.\n{T}: Untap up to three target permanents. Activate only once each turn.",
+            "rules_text": "Flying\na enters with three +1/+1 counters if three or more colors of mana were spent to cast it.\n{T}: Untap up to three target permanents. Activate only once each turn.",
             "flavor_text": "[i][/i]",
             "pt": "0/3",
             "special_text": "",
@@ -1372,6 +1515,8 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
+            "position": "71",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1391,14 +1536,16 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
+            "position": "72",
+            "rotated": false,
             "notes": ""
         },
         {
-            "card_name": "",
+            "card_name": "b",
             "color": "R",
             "rarity": "rare",
             "type": "Sorcery",
-            "number": 51,
+            "number": 52,
             "color_identity": "R",
             "cost": "{3}{R}{R}",
             "rules_text": "Rebound\nConjure two cards named Liquidity into your hand. [i](They're {0} instants with \u201cAdd one mana of any color.\u201d)[/i]\nYou may cast any number of target instant and sorcery spells from your graveyard. Exile them if they would be put into your graveyard.",
@@ -1410,6 +1557,8 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
+            "position": "73",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1429,6 +1578,8 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
+            "position": "74",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1448,14 +1599,16 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
+            "position": "75",
+            "rotated": false,
             "notes": ""
         },
         {
-            "card_name": "",
+            "card_name": "b",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
-            "number": 19,
+            "number": 23,
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "As an additional cost to cast this spell, you may exile three cards from your graveyard or sacrifice a creature.\nScry 2, then draw a card. If the additional cost was paid, draw two cards instead.",
@@ -1467,6 +1620,8 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
+            "position": "76",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1474,7 +1629,7 @@
             "color": "U",
             "rarity": "rare",
             "type": "Artifact",
-            "number": 24,
+            "number": 22,
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Mass produced 3\u2014{U}, Tap six untapped permanents you control [i](If you cast this for its mass produced cost, it enters with three charge counters. When you cast a spell, you may remove a charge counter from it to create a token copy of it with no mana cost.)[/i]\nWhen Allied Botnet enters, draw a card.\n{T}: Surveil 1.",
@@ -1486,17 +1641,19 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
+            "position": "77",
+            "rotated": false,
             "notes": ""
         },
         {
-            "card_name": "",
+            "card_name": "c",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature",
-            "number": 49,
+            "number": 57,
             "color_identity": "R",
             "cost": "{2}{R}",
-            "rules_text": "CARDNAME enters with a lifelink counter if three or more colors of mana were spent to cast it.\nWhenever you cast an instant or sorcery spell, CARDNAME deals 2 damage to each opponent.",
+            "rules_text": "c enters with a lifelink counter if three or more colors of mana were spent to cast it.\nWhenever you cast an instant or sorcery spell, c deals 2 damage to each opponent.",
             "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
@@ -1505,17 +1662,19 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
+            "position": "78",
+            "rotated": false,
             "notes": ""
         },
         {
-            "card_name": "",
+            "card_name": "c",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
-            "number": 21,
+            "number": 25,
             "color_identity": "U",
             "cost": "{2}{U}",
-            "rules_text": "As an additional cost to cast this spell, exile five cards from your graveyard.\nScry 3, then draw two cards. If three or more colors of mana were spent to cast this spell, return a permanent card exiled with CARDNAME to your hand.",
+            "rules_text": "As an additional cost to cast this spell, exile five cards from your graveyard.\nScry 3, then draw two cards. If three or more colors of mana were spent to cast this spell, return a permanent card exiled with c to your hand.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -1524,17 +1683,19 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
+            "position": "79",
+            "rotated": false,
             "notes": ""
         },
         {
-            "card_name": "",
+            "card_name": "c",
             "color": "B",
             "rarity": "common",
             "type": "Creature",
-            "number": 34,
+            "number": 37,
             "color_identity": "B",
             "cost": "{2}{B}",
-            "rules_text": "When CARDNAME enters, create a 2/2 TYPE token. Create a token that's a copy of target creature you control instead if three or more colors of mana were spent to cast CARDNAME.\n{B}, Sacrifice a creature token: Draw a card.",
+            "rules_text": "When c enters, create a 2/2 TYPE token. Create a token that's a copy of target creature you control instead if three or more colors of mana were spent to cast c.\n{B}, Sacrifice a creature token: Draw a card.",
             "flavor_text": "[i]one-line ft[/i]",
             "pt": "1/1",
             "special_text": "",
@@ -1543,14 +1704,16 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
+            "position": "80",
+            "rotated": false,
             "notes": ""
         },
         {
-            "card_name": "",
+            "card_name": "a",
             "color": "W",
             "rarity": "rare",
             "type": "Sorcery",
-            "number": 5,
+            "number": 4,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Put two charge counters on target creature or artifact you control. If it doesn't have mass produced, it gains mass produced. [i](Whenever you cast a spell, you may remove a charge counter from it to create a token copy of it with no mana cost.)[/i]",
@@ -1562,6 +1725,8 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
+            "position": "81",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1581,6 +1746,8 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
+            "position": "82",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1600,6 +1767,8 @@
             "loyalty": "",
             "artist": "Vasiliy Ivanov",
             "alias": "",
+            "position": "83",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1619,6 +1788,8 @@
             "loyalty": "",
             "artist": "Vasiliy Ivanov",
             "alias": "",
+            "position": "84",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1638,6 +1809,8 @@
             "loyalty": "",
             "artist": "Vasiliy Ivanov",
             "alias": "",
+            "position": "85",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1657,6 +1830,8 @@
             "loyalty": "",
             "artist": "Vasily Ivanov",
             "alias": "",
+            "position": "86",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1676,6 +1851,8 @@
             "loyalty": "",
             "artist": "Vasily Ivanov",
             "alias": "",
+            "position": "87",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1695,17 +1872,19 @@
             "loyalty": "",
             "artist": "Vasily Ivanov",
             "alias": "",
+            "position": "88",
+            "rotated": false,
             "notes": ""
         },
         {
-            "card_name": "",
+            "card_name": "a",
             "color": "",
             "rarity": "common",
             "type": "Land",
             "number": 93,
             "color_identity": "W",
             "cost": "",
-            "rules_text": "{T}: Add {W}.\n{1}, Discard CARDNAME: Conjure a card named Swamp or a card named Mountain into your hand. [i](You don't have to reveal your choice.)[/i]",
+            "rules_text": "{T}: Add {W}.\n{1}, Discard a: Conjure a card named Swamp or a card named Mountain into your hand. [i](You don't have to reveal your choice.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -1714,17 +1893,19 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
+            "position": "89",
+            "rotated": false,
             "notes": ""
         },
         {
-            "card_name": "",
+            "card_name": "b",
             "color": "",
             "rarity": "common",
             "type": "Land",
             "number": 94,
             "color_identity": "U",
             "cost": "",
-            "rules_text": "{T}: Add {U}.\n{1}, Discard CARDNAME: Conjure a card named Mountain or a card named Forest into your hand. [i](You don't have to reveal your choice.)[/i]",
+            "rules_text": "{T}: Add {U}.\n{1}, Discard b: Conjure a card named Mountain or a card named Forest into your hand. [i](You don't have to reveal your choice.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -1733,36 +1914,19 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
+            "position": "90",
+            "rotated": false,
             "notes": ""
         },
         {
-            "card_name": "",
-            "color": "",
-            "rarity": "common",
-            "type": "Land",
-            "number": 95,
-            "color_identity": "B",
-            "cost": "",
-            "rules_text": "{T}: Add {B}.\n{1}, Discard CARDNAME: Conjure a card named Forest or a card named Plains into your hand. [i](You don't have to reveal your choice.)[/i]",
-            "flavor_text": "[i][/i]",
-            "pt": "",
-            "special_text": "",
-            "shape": "normal",
-            "set": "WH$",
-            "loyalty": "",
-            "artist": "",
-            "alias": "",
-            "notes": ""
-        },
-        {
-            "card_name": "",
+            "card_name": "c",
             "color": "",
             "rarity": "common",
             "type": "Land",
             "number": 96,
-            "color_identity": "G",
+            "color_identity": "B",
             "cost": "",
-            "rules_text": "{T}: Add {G}.\n{1}, Discard CARDNAME: Conjure a card named Island or a card named Swamp into your hand. [i](You don't have to reveal your choice.)[/i]",
+            "rules_text": "{T}: Add {B}.\n{1}, Discard c: Conjure a card named Forest or a card named Plains into your hand. [i](You don't have to reveal your choice.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -1771,17 +1935,19 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
+            "position": "91",
+            "rotated": false,
             "notes": ""
         },
         {
-            "card_name": "",
+            "card_name": "d",
             "color": "",
             "rarity": "common",
             "type": "Land",
             "number": 97,
-            "color_identity": "R",
+            "color_identity": "G",
             "cost": "",
-            "rules_text": "{T}: Add {R}.\n{1}, Discard CARDNAME: Conjure a card named Plains or a card named Island into your hand. [i](You don't have to reveal your choice.)[/i]",
+            "rules_text": "{T}: Add {G}.\n{1}, Discard d: Conjure a card named Island or a card named Swamp into your hand. [i](You don't have to reveal your choice.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -1790,6 +1956,29 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
+            "position": "92",
+            "rotated": false,
+            "notes": ""
+        },
+        {
+            "card_name": "e",
+            "color": "",
+            "rarity": "common",
+            "type": "Land",
+            "number": 98,
+            "color_identity": "R",
+            "cost": "",
+            "rules_text": "{T}: Add {R}.\n{1}, Discard e: Conjure a card named Plains or a card named Island into your hand. [i](You don't have to reveal your choice.)[/i]",
+            "flavor_text": "[i][/i]",
+            "pt": "",
+            "special_text": "",
+            "shape": "normal",
+            "set": "WH$",
+            "loyalty": "",
+            "artist": "",
+            "alias": "",
+            "position": "93",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1809,6 +1998,8 @@
             "loyalty": "",
             "artist": "Alex Senechal",
             "alias": "",
+            "position": "94",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1828,6 +2019,8 @@
             "loyalty": "",
             "artist": "Alex Senechal",
             "alias": "",
+            "position": "95",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1847,6 +2040,8 @@
             "loyalty": "",
             "artist": "Lars Sowig",
             "alias": "",
+            "position": "96",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1866,6 +2061,8 @@
             "loyalty": "",
             "artist": "Lars Sowig",
             "alias": "",
+            "position": "97",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1885,6 +2082,8 @@
             "loyalty": "",
             "artist": "",
             "alias": "",
+            "position": "98",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1892,7 +2091,7 @@
             "color": "R",
             "rarity": "rare",
             "type": "Creature \u2014 Human Artificer",
-            "number": 56,
+            "number": 55,
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "Once each turn, whenever you cast a noncreature spell, conjure a card named Arclight Phoenix into your graveyard. [i](It's a {3}{R} 3/2 Phoenix with flying, haste, and \u201cAt the beginning of combat on your turn, if you've cast three or more instant and sorcery spells this turn, return this card from your graveyard to the battlefield.\u201d)[/i]",
@@ -1904,6 +2103,8 @@
             "loyalty": "",
             "artist": "superninjadeluxe, tanaka13200",
             "alias": "",
+            "position": "99",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1923,6 +2124,8 @@
             "loyalty": "",
             "artist": "Jiang Geping",
             "alias": "",
+            "position": "100",
+            "rotated": false,
             "notes": ""
         }
     ]
