@@ -5,7 +5,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Sorcery",
-			"collector_number": "5",
+			"collector_number": "2",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/0.png"
 			}
@@ -15,7 +15,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Human Rogue Spellshaper",
-			"collector_number": "61",
+			"collector_number": "56",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/1.png"
 			}
@@ -35,17 +35,17 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}{R}",
 			"type": "Creature — Human Mercenary Pirate",
-			"collector_number": "88",
+			"collector_number": "87",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/3.png"
 			}
 		},
 		{
-			"name": "a",
+			"name": "CW03",
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Creature — Human Carrier",
-			"collector_number": "2",
+			"collector_number": "5",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/4.png"
 			}
@@ -55,7 +55,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{U}",
 			"type": "Artifact — Equipment",
-			"collector_number": "30",
+			"collector_number": "28",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/5.png"
 			}
@@ -65,7 +65,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}",
 			"type": "Creature — Human Spy Artificer",
-			"collector_number": "17",
+			"collector_number": "14",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/6.png"
 			}
@@ -75,7 +75,7 @@
 			"rarity": "common",
 			"mana_cost": "{3}{B}",
 			"type": "Creature — Human Wizard",
-			"collector_number": "43",
+			"collector_number": "42",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/7.png"
 			}
@@ -85,7 +85,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{R}",
 			"type": "Artifact Creature — Leviathan",
-			"collector_number": "59",
+			"collector_number": "54",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/8.png"
 			}
@@ -95,7 +95,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}",
 			"type": "Creature — Human Warlock",
-			"collector_number": "27",
+			"collector_number": "23",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/9.png"
 			}
@@ -125,7 +125,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{B}{B}",
 			"type": "Creature — Human Artificer Wizard",
-			"collector_number": "40",
+			"collector_number": "37",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/12.png"
 			}
@@ -135,7 +135,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}{W}",
 			"type": "Legendary Creature — Human Pilot",
-			"collector_number": "9",
+			"collector_number": "3",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/13.png"
 			}
@@ -145,7 +145,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{W}{W}",
 			"type": "Creature — Human Artificer",
-			"collector_number": "15",
+			"collector_number": "11",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/14.png"
 			}
@@ -155,7 +155,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{1}{W}{U}",
 			"type": "Creature — Homunculus Soldier Demigod",
-			"collector_number": "90",
+			"collector_number": "89",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/15.png"
 			}
@@ -165,7 +165,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{U}",
 			"type": "Artifact",
-			"collector_number": "28",
+			"collector_number": "24",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/16.png"
 			}
@@ -175,7 +175,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Human Vampire Noble",
-			"collector_number": "79",
+			"collector_number": "77",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/17.png"
 			}
@@ -205,7 +205,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}{R}",
 			"type": "Creature — Homunculus Soldier",
-			"collector_number": "53",
+			"collector_number": "48",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/20.png"
 			}
@@ -215,7 +215,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{2}{W}{W}",
 			"type": "Creature — Human Artificer Pilot",
-			"collector_number": "10",
+			"collector_number": "6",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/21.png"
 			}
@@ -225,17 +225,17 @@
 			"rarity": "mythic",
 			"mana_cost": "{1}{U}{R}",
 			"type": "Sorcery",
-			"collector_number": "84",
+			"collector_number": "83",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/22.png"
 			}
 		},
 		{
-			"name": "a",
+			"name": "NB06",
 			"rarity": "uncommon",
 			"mana_cost": "{B}",
 			"type": "Sorcery",
-			"collector_number": "33",
+			"collector_number": "40",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/23.png"
 			}
@@ -245,17 +245,17 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "95",
+			"collector_number": "93",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/24.png"
 			}
 		},
 		{
-			"name": "a",
+			"name": "RM10",
 			"rarity": "rare",
 			"mana_cost": "{1}{G}{U}",
 			"type": "Sorcery",
-			"collector_number": "83",
+			"collector_number": "90",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/25.png"
 			}
@@ -285,7 +285,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}",
 			"type": "Creature — Human Noble Bard",
-			"collector_number": "67",
+			"collector_number": "62",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/28.png"
 			}
@@ -295,7 +295,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{R}",
 			"type": "Sorcery",
-			"collector_number": "56",
+			"collector_number": "51",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/29.png"
 			}
@@ -305,7 +305,7 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{B}",
 			"type": "Sorcery",
-			"collector_number": "41",
+			"collector_number": "38",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/30.png"
 			}
@@ -315,17 +315,17 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}{G}",
 			"type": "Legendary Creature — Human Rogue",
-			"collector_number": "86",
+			"collector_number": "85",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/31.png"
 			}
 		},
 		{
-			"name": "c",
+			"name": "RW02",
 			"rarity": "rare",
 			"mana_cost": "{2}{W}",
 			"type": "Creature — Human Wizard",
-			"collector_number": "8",
+			"collector_number": "16",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/32.png"
 			}
@@ -335,7 +335,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Artifact Creature — Employee",
-			"collector_number": "31",
+			"collector_number": "30",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/33.png"
 			}
@@ -345,7 +345,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{1}{R}{R}",
 			"type": "Enchantment",
-			"collector_number": "58",
+			"collector_number": "52",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/34.png"
 			}
@@ -365,17 +365,17 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R}",
 			"type": "Artifact",
-			"collector_number": "66",
+			"collector_number": "61",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/36.png"
 			}
 		},
 		{
-			"name": "a",
+			"name": "NR07",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
 			"type": "Enchantment",
-			"collector_number": "50",
+			"collector_number": "66",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/37.png"
 			}
@@ -385,17 +385,17 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Enchantment",
-			"collector_number": "54",
+			"collector_number": "49",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/38.png"
 			}
 		},
 		{
-			"name": "a",
+			"name": "CR01",
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Sorcery",
-			"collector_number": "49",
+			"collector_number": "53",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/39.png"
 			}
@@ -411,71 +411,71 @@
 			}
 		},
 		{
-			"name": "a",
+			"name": "CU01",
 			"rarity": "common",
 			"mana_cost": "{U}",
 			"type": "Creature",
-			"collector_number": "18",
+			"collector_number": "20",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/41.png"
 			}
 		},
 		{
-			"name": "b",
+			"name": "CB04",
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Creature",
-			"collector_number": "36",
+			"collector_number": "33",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/42.png"
 			}
 		},
 		{
-			"name": "a",
+			"name": "RR02",
 			"rarity": "rare",
 			"mana_cost": "{2}{R}",
 			"type": "Creature",
-			"collector_number": "48",
+			"collector_number": "70",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/43.png"
 			}
 		},
 		{
-			"name": "a",
+			"name": "RU04",
 			"rarity": "rare",
 			"mana_cost": "{3}{U}{U}",
 			"type": "Sorcery",
-			"collector_number": "19",
+			"collector_number": "29",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/44.png"
 			}
 		},
 		{
-			"name": "a",
+			"name": "CG06",
 			"rarity": "common",
 			"mana_cost": "{3}{G}",
 			"type": "Creature",
-			"collector_number": "77",
+			"collector_number": "78",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/45.png"
 			}
 		},
 		{
-			"name": "b",
+			"name": "CW02",
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Creature",
-			"collector_number": "7",
+			"collector_number": "4",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/46.png"
 			}
 		},
 		{
-			"name": "b",
+			"name": "NR05",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{R}{R}",
 			"type": "Creature",
-			"collector_number": "51",
+			"collector_number": "65",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/47.png"
 			}
@@ -485,7 +485,7 @@
 			"rarity": "rare",
 			"mana_cost": "{R}",
 			"type": "Creature",
-			"collector_number": "64",
+			"collector_number": "59",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/48.png"
 			}
@@ -495,17 +495,17 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Creature",
-			"collector_number": "65",
+			"collector_number": "60",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/49.png"
 			}
 		},
 		{
-			"name": "a",
+			"name": "NU10",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}",
 			"type": "Sorcery",
-			"collector_number": "20",
+			"collector_number": "26",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/50.png"
 			}
@@ -515,7 +515,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Instant",
-			"collector_number": "24",
+			"collector_number": "19",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/51.png"
 			}
@@ -525,7 +525,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Creature — Human Survivor",
-			"collector_number": "12",
+			"collector_number": "8",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/52.png"
 			}
@@ -535,7 +535,7 @@
 			"rarity": "common",
 			"mana_cost": "{B}",
 			"type": "Creature — Human Soldier",
-			"collector_number": "38",
+			"collector_number": "35",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/53.png"
 			}
@@ -545,7 +545,7 @@
 			"rarity": "common",
 			"mana_cost": "{3}{R}",
 			"type": "Creature — Human Artificer",
-			"collector_number": "70",
+			"collector_number": "68",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/54.png"
 			}
@@ -555,7 +555,7 @@
 			"rarity": "common",
 			"mana_cost": "{W}",
 			"type": "Artifact — Vehicle",
-			"collector_number": "16",
+			"collector_number": "13",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/55.png"
 			}
@@ -565,7 +565,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{1}{R}",
 			"type": "Artifact",
-			"collector_number": "62",
+			"collector_number": "57",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/56.png"
 			}
@@ -585,7 +585,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{B}{R}",
 			"type": "Creature — Human Mercenary Warlock",
-			"collector_number": "85",
+			"collector_number": "84",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/58.png"
 			}
@@ -605,7 +605,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Human",
-			"collector_number": "63",
+			"collector_number": "58",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/60.png"
 			}
@@ -615,7 +615,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{3}{R}{R}{R}",
 			"type": "Legendary Creature — Human Mercenary",
-			"collector_number": "69",
+			"collector_number": "67",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/61.png"
 			}
@@ -625,7 +625,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}{U}",
 			"type": "Legendary Creature — Human Advisor",
-			"collector_number": "89",
+			"collector_number": "88",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/62.png"
 			}
@@ -635,7 +635,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Creature — Human Advisor",
-			"collector_number": "11",
+			"collector_number": "7",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/63.png"
 			}
@@ -645,7 +645,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
 			"type": "Creature — Brushwagg",
-			"collector_number": "80",
+			"collector_number": "79",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/64.png"
 			}
@@ -655,67 +655,67 @@
 			"rarity": "common",
 			"mana_cost": "{R}",
 			"type": "Sorcery",
-			"collector_number": "60",
+			"collector_number": "55",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/65.png"
 			}
 		},
 		{
-			"name": "b",
+			"name": "RW01",
 			"rarity": "rare",
 			"mana_cost": "{1}{W}",
 			"type": "Creature",
-			"collector_number": "6",
+			"collector_number": "15",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/66.png"
 			}
 		},
 		{
-			"name": "a",
+			"name": "YU01",
 			"rarity": "mythic",
 			"mana_cost": "{3}{U}{U}",
 			"type": "Creature",
-			"collector_number": "21",
+			"collector_number": "32",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/67.png"
 			}
 		},
 		{
-			"name": "a",
+			"name": "CB11",
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Sorcery",
-			"collector_number": "35",
+			"collector_number": "34",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/68.png"
 			}
 		},
 		{
-			"name": "a",
+			"name": "RB02",
 			"rarity": "rare",
 			"mana_cost": "{2}{B}",
 			"type": "Creature",
-			"collector_number": "34",
+			"collector_number": "44",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/69.png"
 			}
 		},
 		{
-			"name": "a",
+			"name": "NW08",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}",
 			"type": "Instant",
-			"collector_number": "3",
+			"collector_number": "12",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/70.png"
 			}
 		},
 		{
-			"name": "a",
+			"name": "NG03",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}",
 			"type": "Creature",
-			"collector_number": "76",
+			"collector_number": "80",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/71.png"
 			}
@@ -725,17 +725,17 @@
 			"rarity": "mythic",
 			"mana_cost": "{X}{B}{B}",
 			"type": "Creature — Human Noble",
-			"collector_number": "42",
+			"collector_number": "41",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/72.png"
 			}
 		},
 		{
-			"name": "b",
+			"name": "RR01",
 			"rarity": "rare",
 			"mana_cost": "{3}{R}{R}",
 			"type": "Sorcery",
-			"collector_number": "52",
+			"collector_number": "69",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/73.png"
 			}
@@ -755,17 +755,17 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
 			"type": "Artifact",
-			"collector_number": "39",
+			"collector_number": "36",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/75.png"
 			}
 		},
 		{
-			"name": "b",
+			"name": "CU13",
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Instant",
-			"collector_number": "23",
+			"collector_number": "21",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/76.png"
 			}
@@ -775,24 +775,24 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{U}",
 			"type": "Artifact",
-			"collector_number": "22",
+			"collector_number": "18",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/77.png"
 			}
 		},
 		{
-			"name": "c",
+			"name": "NR03",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Creature",
-			"collector_number": "57",
+			"collector_number": "64",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/78.png"
 			}
 		},
 		{
-			"name": "c",
-			"rarity": "common",
+			"name": "NU07",
+			"rarity": "uncommon",
 			"mana_cost": "{2}{U}",
 			"type": "Instant",
 			"collector_number": "25",
@@ -801,21 +801,21 @@
 			}
 		},
 		{
-			"name": "c",
-			"rarity": "common",
+			"name": "NB04",
+			"rarity": "uncommon",
 			"mana_cost": "{2}{B}",
 			"type": "Creature",
-			"collector_number": "37",
+			"collector_number": "39",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/80.png"
 			}
 		},
 		{
-			"name": "a",
+			"name": "RW04",
 			"rarity": "rare",
 			"mana_cost": "{1}{W}",
 			"type": "Sorcery",
-			"collector_number": "4",
+			"collector_number": "17",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/81.png"
 			}
@@ -825,7 +825,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}{U}",
 			"type": "Legendary Creature — Human Noble",
-			"collector_number": "87",
+			"collector_number": "86",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/82.png"
 			}
@@ -835,7 +835,7 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{U}{U}",
 			"type": "Artifact — Vehicle",
-			"collector_number": "26",
+			"collector_number": "22",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/83.png"
 			}
@@ -845,7 +845,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{W}",
 			"type": "Creature — Human Artificer",
-			"collector_number": "13",
+			"collector_number": "9",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/84.png"
 			}
@@ -855,7 +855,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{U}",
 			"type": "Artifact Creature — Sculpture Processor",
-			"collector_number": "32",
+			"collector_number": "31",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/85.png"
 			}
@@ -885,33 +885,33 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R}{R}",
 			"type": "Enchantment",
-			"collector_number": "68",
+			"collector_number": "63",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/88.png"
 			}
 		},
 		{
-			"name": "a",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Land",
-			"collector_number": "93",
-			"image_uris": {
-				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/89.png"
-			}
-		},
-		{
-			"name": "b",
+			"name": "CL01",
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land",
 			"collector_number": "94",
 			"image_uris": {
+				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/89.png"
+			}
+		},
+		{
+			"name": "CL02",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "95",
+			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/90.png"
 			}
 		},
 		{
-			"name": "c",
+			"name": "CL03",
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land",
@@ -921,21 +921,21 @@
 			}
 		},
 		{
-			"name": "d",
+			"name": "CL05",
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "97",
+			"collector_number": "98",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/92.png"
 			}
 		},
 		{
-			"name": "e",
+			"name": "CL04",
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "98",
+			"collector_number": "97",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/93.png"
 			}
@@ -955,7 +955,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
 			"type": "Artifact Creature — Assassin",
-			"collector_number": "44",
+			"collector_number": "43",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/95.png"
 			}
@@ -975,7 +975,7 @@
 			"rarity": "common",
 			"mana_cost": "{G}",
 			"type": "Artifact — Equipment",
-			"collector_number": "78",
+			"collector_number": "76",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/97.png"
 			}
@@ -985,7 +985,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
 			"type": "Artifact",
-			"collector_number": "29",
+			"collector_number": "27",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/98.png"
 			}
@@ -995,7 +995,7 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Human Artificer",
-			"collector_number": "55",
+			"collector_number": "50",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/99.png"
 			}
@@ -1005,7 +1005,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}",
 			"type": "Enchantment — Aura",
-			"collector_number": "14",
+			"collector_number": "10",
 			"image_uris": {
 				"en": "https://teamstarlightinternal.github.io/sets/WH$-files/img/100.png"
 			}
@@ -1019,26 +1019,26 @@
 	2 Massive Aetherscope
 	1 Danger-Zone Gearhead
 	1 Biased Precognition
-	2 a
+	2 RM10
 	2 Virtualscape Architect
 	2 Genomic Tutor
-	2 c
+	2 RW02
 	1 Climate Change
 	2 Sky-High Stadium
 	2 Fusion Forge
-	2 a
-	2 a
+	2 RR02
+	2 RU04
 	2 FUNCPRINT rust harvester would be funny
 	1 Extraplanetary Railgun
 	2 Diego Vala, Meek President
 	1 Prizhin, EPITHET
-	2 b
-	1 a
-	2 a
+	2 RW01
+	1 YU01
+	2 RB02
 	1 Nihilistic Investor
-	2 b
+	2 RR01
 	2 Allied Botnet
-	2 a
+	2 RW04
 	2 Factory-On-Legs
 	2 Meltdown Containers
 	2 Massive Qucomp
@@ -1058,21 +1058,23 @@
 	4 Mohole Station
 	4 Munitions Plant
 	4 Ballistic Jenny
-	4 a
+	4 NB06
 	4 Brutalist Block
 	4 grimes
 	4 Bunker-Buster Round
 	4 Hubermann, Overseas Investor
-	4 a
+	4 NR07
 	4 bitter reunion 2
-	4 b
-	4 a
+	4 NR05
+	4 NU10
 	4 Space Force
 	4 Freelance Hexweaver
 	4 Newport, Hive Inc. CEO
-	4 a
-	4 a
-	4 c
+	4 NW08
+	4 NG03
+	4 NR03
+	4 NU07
+	4 NB04
 	4 Kuta, Comprador Industrialist
 	4 Statue of Guardianship
 	4 Prizha Killbot
@@ -1082,17 +1084,17 @@
 [common(6)]
 	8 Agelessness Treatment
 	8 State Repression
-	8 a
+	8 CW03
 	8 Precog Agent
 	8 Telecommunications Wight
 	8 Peasant Tank
 	8 Space-Age Waitertron
-	8 a
+	8 CR01
 	8 Vatborn Technician
-	8 a
-	8 b
-	8 a
-	8 b
+	8 CU01
+	8 CB04
+	8 CG06
+	8 CW02
 	8 FUNCPRINT sunshot militia
 	8 A Beautiful Morning
 	8 Internally Displaced
@@ -1103,33 +1105,31 @@
 	8 Impassioned Mayor
 	8 Endangered Brushwagg
 	8 Drone Strike
-	8 a
+	8 CB11
 	8 Grobyno '22 Automatic
 	8 Cryptocurrency Miner
-	8 b
-	8 c
-	8 c
+	8 CU13
 	8 Smoke Break
-	8 a
-	8 b
-	8 c
-	8 d
-	8 e
+	8 CL01
+	8 CL02
+	8 CL03
+	8 CL05
+	8 CL04
 	8 Biofrequency Analyzer
 [common | masterpiece(1)]
 	8 Agelessness Treatment
 	8 State Repression
-	8 a
+	8 CW03
 	8 Precog Agent
 	8 Telecommunications Wight
 	8 Peasant Tank
 	8 Space-Age Waitertron
-	8 a
+	8 CR01
 	8 Vatborn Technician
-	8 a
-	8 b
-	8 a
-	8 b
+	8 CU01
+	8 CB04
+	8 CG06
+	8 CW02
 	8 FUNCPRINT sunshot militia
 	8 A Beautiful Morning
 	8 Internally Displaced
@@ -1140,25 +1140,23 @@
 	8 Impassioned Mayor
 	8 Endangered Brushwagg
 	8 Drone Strike
-	8 a
+	8 CB11
 	8 Grobyno '22 Automatic
 	8 Cryptocurrency Miner
-	8 b
-	8 c
-	8 c
+	8 CU13
 	8 Smoke Break
-	8 a
-	8 b
-	8 c
-	8 d
-	8 e
+	8 CL01
+	8 CL02
+	8 CL03
+	8 CL05
+	8 CL04
 	8 Biofrequency Analyzer
 [foil(1)]
 	12 Agelessness Treatment
 	6 Exigient Safecracker
 	12 State Repression
 	6 Loot-Trade Opportunist
-	12 a
+	12 CW03
 	6 Precog Suit
 	6 Prizha Outfitter
 	12 Precog Agent
@@ -1177,34 +1175,34 @@
 	6 Ballistic Jenny
 	1 Danger-Zone Gearhead
 	1 Biased Precognition
-	6 a
+	6 NB06
 	6 Brutalist Block
-	2 a
+	2 RM10
 	2 Virtualscape Architect
 	12 Peasant Tank
 	6 grimes
 	6 Bunker-Buster Round
 	2 Genomic Tutor
 	6 Hubermann, Overseas Investor
-	2 c
+	2 RW02
 	12 Space-Age Waitertron
 	1 Climate Change
 	2 Sky-High Stadium
 	2 Fusion Forge
-	6 a
+	6 NR07
 	6 bitter reunion 2
-	12 a
+	12 CR01
 	12 Vatborn Technician
-	12 a
-	12 b
-	2 a
-	2 a
-	12 a
-	12 b
-	6 b
+	12 CU01
+	12 CB04
+	2 RR02
+	2 RU04
+	12 CG06
+	12 CW02
+	6 NR05
 	2 FUNCPRINT rust harvester would be funny
 	12 FUNCPRINT sunshot militia
-	6 a
+	6 NU10
 	12 A Beautiful Morning
 	12 Internally Displaced
 	12 Commissioned Officer
@@ -1220,22 +1218,22 @@
 	12 Impassioned Mayor
 	12 Endangered Brushwagg
 	12 Drone Strike
-	2 b
-	1 a
-	12 a
-	2 a
-	6 a
-	6 a
+	2 RW01
+	1 YU01
+	12 CB11
+	2 RB02
+	6 NW08
+	6 NG03
 	1 Nihilistic Investor
-	2 b
+	2 RR01
 	12 Grobyno '22 Automatic
 	12 Cryptocurrency Miner
-	12 b
+	12 CU13
 	2 Allied Botnet
-	6 c
-	12 c
-	12 c
-	2 a
+	6 NR03
+	6 NU07
+	6 NB04
+	2 RW04
 	6 Kuta, Comprador Industrialist
 	2 Factory-On-Legs
 	2 Meltdown Containers
@@ -1243,11 +1241,11 @@
 	12 Smoke Break
 	2 Massive Qucomp
 	2 Laserdrill Mining
-	12 a
-	12 b
-	12 c
-	12 d
-	12 e
+	12 CL01
+	12 CL02
+	12 CL03
+	12 CL05
+	12 CL04
 	2 Reloader Truck
 	6 Prizha Killbot
 	6 Spaceborne Snipe
@@ -1260,7 +1258,7 @@
 	15 Exigient Safecracker
 	6 State Repression
 	15 Loot-Trade Opportunist
-	6 a
+	6 CW03
 	15 Precog Suit
 	15 Prizha Outfitter
 	6 Precog Agent
@@ -1279,34 +1277,34 @@
 	15 Ballistic Jenny
 	4 Danger-Zone Gearhead
 	4 Biased Precognition
-	15 a
+	15 NB06
 	15 Brutalist Block
-	7 a
+	7 RM10
 	7 Virtualscape Architect
 	6 Peasant Tank
 	15 grimes
 	15 Bunker-Buster Round
 	7 Genomic Tutor
 	15 Hubermann, Overseas Investor
-	7 c
+	7 RW02
 	6 Space-Age Waitertron
 	4 Climate Change
 	7 Sky-High Stadium
 	7 Fusion Forge
-	15 a
+	15 NR07
 	15 bitter reunion 2
-	6 a
+	6 CR01
 	6 Vatborn Technician
-	6 a
-	6 b
-	7 a
-	7 a
-	6 a
-	6 b
-	15 b
+	6 CU01
+	6 CB04
+	7 RR02
+	7 RU04
+	6 CG06
+	6 CW02
+	15 NR05
 	7 FUNCPRINT rust harvester would be funny
 	6 FUNCPRINT sunshot militia
-	15 a
+	15 NU10
 	6 A Beautiful Morning
 	6 Internally Displaced
 	6 Commissioned Officer
@@ -1322,22 +1320,22 @@
 	6 Impassioned Mayor
 	6 Endangered Brushwagg
 	6 Drone Strike
-	7 b
-	4 a
-	6 a
-	7 a
-	15 a
-	15 a
+	7 RW01
+	4 YU01
+	6 CB11
+	7 RB02
+	15 NW08
+	15 NG03
 	4 Nihilistic Investor
-	7 b
+	7 RR01
 	6 Grobyno '22 Automatic
 	6 Cryptocurrency Miner
-	6 b
+	6 CU13
 	7 Allied Botnet
-	15 c
-	6 c
-	6 c
-	7 a
+	15 NR03
+	15 NU07
+	15 NB04
+	7 RW04
 	15 Kuta, Comprador Industrialist
 	7 Factory-On-Legs
 	7 Meltdown Containers
@@ -1345,11 +1343,11 @@
 	6 Smoke Break
 	7 Massive Qucomp
 	7 Laserdrill Mining
-	6 a
-	6 b
-	6 c
-	6 d
-	6 e
+	6 CL01
+	6 CL02
+	6 CL03
+	6 CL05
+	6 CL04
 	7 Reloader Truck
 	15 Prizha Killbot
 	15 Spaceborne Snipe
